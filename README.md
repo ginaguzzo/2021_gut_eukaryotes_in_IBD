@@ -6,11 +6,11 @@ This repository includes the code and output for detecting eukaryotes in gut mic
 The analysis is split into two sub-analyses of three shotgun metagenomic datasets and their respective metadata:
 
 **1.	Cohort meta-analysis**
-   -	Individuals with IBD from the 1000IBD cohort (Imhann et al. 2019) available here. *NOTE: the dataset is available per request following contact with the Data Access Committee.*
-   -	Healthy individuals from the 500FG cohort (Schirmer et al. 2019) available here.
+   -	Individuals with IBD from the 1000IBD cohort ([Imhann et al. 2019](https://bmcgastroenterol.biomedcentral.com/articles/10.1186/s12876-018-0917-5)) available [here](https://ega-archive.org/datasets/EGAD00001004194). *NOTE: the dataset is available per request following contact with the Data Access Committee.*
+   -	Healthy individuals from the 500FG cohort ([Schirmer et al. 2019](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5131922/)) available [here](https://www.ebi.ac.uk/ena/browser/view/PRJNA319574).
  
 **2.	Faecal microbiota transplant (FMT) analysis**
-   - FMT recipients and FMT donors from (Kong et al. 2020) available here.
+   - FMT recipients and FMT donors from ([Kong et al. 2020](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7725862/)) available [here](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA625520/).
 
 ## Dependencies
 
