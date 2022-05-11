@@ -30,9 +30,11 @@ The analysis is split into two sub-analyses of three shotgun metagenomic dataset
 
 ## Workflow
 The workflow is run in the following order:
-1. Bioinformatic_pipeline
-- Shell commands for quality control, detecting eukaryotes in samples, and formatting output for R
-3. R_analysis
-- R code for results exploration and generating figures and tables
+
+**1. Bioinformatic_pipeline**
+   - Shell commands for quality control, detecting eukaryotes in samples, and formatting output for R.
+
+**2. R_analysis**
+   - R code for results exploration and generating figures and tables.
 
 See the respective README files for details on how to run each of these analyses.
