@@ -1,7 +1,7 @@
-# 2021_gut_eukaryotes_in_IBD
+# Analysis of microbial eukaryotes in IBD gut microbiomes  
 
 ## Overview
-This repository includes the code and output for detecting eukaryotes in gut microbiomes of individuals with inflammatory bowel disease (IBD) and individuals without IBD. 
+This repository includes the code and output for detecting eukaryotes in gut microbiomes of individuals with (and without) inflammatory bowel disease (IBD). 
 
 The analysis is split into two sub-analyses of three shotgun metagenomic datasets and their respective metadata:
 
@@ -74,22 +74,27 @@ cd Bioinformatic_pipeline
 conda create -n euks_in_ibd python=2.7
 ```
 
-3. Install the [required conda packages](https://github.com/ginaguzzo/2021_gut_eukaryotes_in_IBD#conda-packages) EXCEPT for eukdetect.
+3. Create a directory to install conda packages.
+```
+mkdir tools
+```
 
-     *NOTE:* Clone the Kneaddata and RiboTagger repos to `Bioinformatic_pipeline/tools/` before installing
+4. Install the [required conda packages](https://github.com/ginaguzzo/2021_gut_eukaryotes_in_IBD#conda-packages) EXCEPT for EukDetect.
+
+     *NOTE:* Clone the KneadData and RiboTagger repos to `Bioinformatic_pipeline/tools/` before installing
  
-4.	Eukdetect should be installed in its own environment according to the instructions.
+5.	Eukdetect should be installed in its own environment according to the instructions.
 
      *NOTE:* Clone the EukDetect repo to `Bioinformatic_pipeline/tools/`
 
-5.	Edit the paths in the .yml files in `eukdetect_config_files` to include the absolute path from your home directory. 
+6.	Edit the paths in the .yml files in `eukdetect_config_files` to include the absolute path from your home directory. 
 
-6.	Copy config files to the Eukdetect installation directory.
+7.	Copy config files to the Eukdetect installation directory.
 ```
 cp eukdetect_config_files/*yml tools/EukDetect-master
 ```
 
-7.	The pipeline scripts should be run in the order they are numbered, from 1-8.
+8.	The pipeline scripts should be run in the order they are numbered, from 1-8.
 
 
 ## Running the R analysis
