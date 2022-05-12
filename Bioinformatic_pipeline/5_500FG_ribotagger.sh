@@ -90,4 +90,4 @@ sed -i '1 s/^/sampleid\t/' tmp.txt
 cat all_ribotagger_v_region_hits.txt >> tmp.txt ; mv tmp.txt 500fg_ribotagger_all_v_region_hits.txt
 
 # Copy results file to directory for R analysis
-cp 500fg_ribotagger_all_v_region_hits.txt R_analysis/cohort_data_analysis/results
+cp 500fg_ribotagger_all_v_region_hits.txt ../../../../../R_analysis/cohort_data_analysis/results

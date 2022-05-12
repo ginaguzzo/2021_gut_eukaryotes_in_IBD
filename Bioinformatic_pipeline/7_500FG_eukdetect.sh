@@ -16,7 +16,7 @@ bash calculate_total_avg_read_lengths.sh
 cd ../../../
 
 ## Edit configfile from default one.
-cp tools/EukDetect-master/default_configfile.yml tools/EukDetect-master/500fg_unrarefied_configfile.yml
+#cp tools/EukDetect-master/default_configfile.yml tools/EukDetect-master/500fg_unrarefied_configfile.yml
 
 ## Total average is 80 bp, so this will be added to the config file.
 ## Keep paired end true and edit paths to directories.
@@ -77,7 +77,7 @@ cat 500fg_eukdetect_all_hits_unrarefied.txt >> tmp.txt ; mv tmp.txt 500fg_eukdet
 sed -i '1 s/^/sampleid\t/' 500fg_eukdetect_all_hits_unrarefied.txt
 
 # Copy results file to directory for R analysis
-cp 500fg_eukdetect_all_hits_unrarefied.txt R_analysis/cohort_data_analysis/results
+cp 500fg_eukdetect_all_hits_unrarefied.txt ../../../../../../R_analysis/cohort_data_analysis/results
 
 
 ######################################################################################################################################################################
@@ -98,7 +98,7 @@ bash calculate_total_avg_read_lengths.sh
 cd ../../../../
 
 ## Edit configfile from previous one.
-head -35 tools/EukDetect-master/500fg_unrarefied_configfile.yml > tools/EukDetect-master/500fg_rarefied_configfile.yml
+#head -35 tools/EukDetect-master/500fg_unrarefied_configfile.yml > tools/EukDetect-master/500fg_rarefied_configfile.yml
 
 ## Total average is 88 bp, so this will be added to the config file.
 ## Keep paired end true and edit paths to directories.
@@ -160,5 +160,5 @@ cat 500fg_eukdetect_all_hits_rarefied.txt >> tmp.txt ; mv tmp.txt 500fg_eukdetec
 sed -i '1 s/^/sampleid\t/' 500fg_eukdetect_all_hits_rarefied.txt
 
 # Copy results file to directory for R analysis
-cp 500fg_eukdetect_all_hits_rarefied.txt R_analysis/cohort_data_analysis/results
+cp 500fg_eukdetect_all_hits_rarefied.txt ../../../../../../R_analysis/cohort_data_analysis/results
 

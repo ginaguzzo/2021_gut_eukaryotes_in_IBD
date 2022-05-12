@@ -16,7 +16,7 @@ bash calculate_total_avg_read_lengths.sh
 cd ../../
 
 ## Edit configfile from default one.
-cp tools/EukDetect-master/default_configfile.yml tools/EukDetect-master/fmt_unrarefied_configfile.yml
+#cp tools/EukDetect-master/default_configfile.yml tools/EukDetect-master/fmt_unrarefied_configfile.yml
 
 ## Total average is 130.42 bp, so 130 will be added to the config file.
 ## Change paired end to false and edit paths to directories.
@@ -77,7 +77,7 @@ cat fmt_eukdetect_all_hits_unrarefied.txt >> tmp.txt ; mv tmp.txt fmt_eukdetect_
 sed -i '1 s/^/sampleid\t/' fmt_eukdetect_all_hits_unrarefied.txt
 
 # Copy results file to directory for R analysis
-cp fmt_eukdetect_all_hits_unrarefied.txt R_analysis/fmt_data_analysis/results
+cp fmt_eukdetect_all_hits_unrarefied.txt ../../../../../../R_analysis/fmt_data_analysis/results
 
 
 ###################################################################################################################################################################
@@ -98,7 +98,7 @@ bash calculate_total_avg_read_lengths.sh
 cd ../../
 
 ## Edit configfile from default one.
-head -35 tools/EukDetect-master/fmt_unrarefied_configfile.yml > tools/EukDetect-master/fmt_rarefied_configfile.yml
+#head -35 tools/EukDetect-master/fmt_unrarefied_configfile.yml > tools/EukDetect-master/fmt_rarefied_configfile.yml
 
 ## Total average is 130.42 bp, so 130 will be added to the config file.
 ## Change paired end to false and edit paths to directories.
@@ -159,7 +159,7 @@ cat fmt_eukdetect_all_hits_rarefied.txt >> tmp.txt ; mv tmp.txt fmt_eukdetect_al
 sed -i '1 s/^/sampleid\t/' fmt_eukdetect_all_hits_rarefied.txt
 
 # Copy results file to directory for R analysis
-cp fmt_eukdetect_all_hits_rarefied.txt R_analysis/fmt_data_analysis/results
+cp fmt_eukdetect_all_hits_rarefied.txt ../../../../../../R_analysis/fmt_data_analysis/results
 
 ## There are only 13 samples with hits in the rarefied dataset, compared to 43 samples in the unrarefied dataset, so we will
 ## proceed with analysing only the unrarefied results in R.
