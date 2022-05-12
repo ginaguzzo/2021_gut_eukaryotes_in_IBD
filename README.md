@@ -74,7 +74,7 @@ cd Bioinformatic_pipeline
 conda create -n euks_in_ibd python=2.7
 ```
 
-3. Install the [required conda packages](https://github.com/ginaguzzo/2021_gut_eukaryotes_in_IBD/edit/main/README.md#conda-packages) EXCEPT for eukdetect.
+3. Install the [required conda packages](https://github.com/ginaguzzo/2021_gut_eukaryotes_in_IBD#conda-packages) EXCEPT for eukdetect.
 
      *NOTE:* Clone the Kneaddata and RiboTagger repos to `Bioinformatic_pipeline/tools/` before installing
  
@@ -93,7 +93,7 @@ cp eukdetect_config_files/*yml tools/EukDetect-master
 
 
 ## Running the R analysis
-1. Install the [required R packages](https://github.com/ginaguzzo/2021_gut_eukaryotes_in_IBD/edit/main/README.md#r-packages) in R studio. 
+1. Install the [required R packages](https://github.com/ginaguzzo/2021_gut_eukaryotes_in_IBD#r-packages) in R studio. 
 
 2. The scripts should be run in the order they are numbered.
 
