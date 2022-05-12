@@ -45,16 +45,22 @@ git clone https://github.com/ginaguzzo/2021_gut_eukaryotes_in_IBD.git
 cd 2021_gut_eukaryotes_in_IBD
 ```
 
-2.	Download samples and copy them to their respective directories.
+2.	Download samples and move them to their respective directories.
 ```
-cp EGA*gz Bioinformatic_pipeline/1000ibd_data/raw_files
-cp SRR5*gz Bioinformatic_pipeline/500fg_data/raw_files
-cp SRR1*gz Bioinformatic_pipeline/fmt_data/raw_files
+mv EGA*gz Bioinformatic_pipeline/1000ibd_data/raw_files
+mv SRR5*gz Bioinformatic_pipeline/500fg_data/raw_files
+mv SRR1*gz Bioinformatic_pipeline/fmt_data/raw_files
 ```
 
-3. Metadata files for the 1000IBD and 500FG cohorts should be copied to `R_analysis/cohort_data_analysis/metadata_files`
+3. Metadata files for the 1000IBD and 500FG cohorts should be moved to: 
+```
+R_analysis/cohort_data_analysis/metadata_files
+```
 
-4. Metadata for the FMT data should be copied to `R_analysis/fmt_data_analysis/metadata_files`
+4. Metadata for the FMT data should be moved to: 
+```
+R_analysis/fmt_data_analysis/metadata_files
+```
 
 
 ## Running the pipeline
@@ -95,7 +101,14 @@ cp eukdetect_config_files/*yml tools/EukDetect-master
 
 *NOTE:* Due to data access constraints, all participant-associated metadata files have been removed. 
 
-Example metadata files can be found in `R_analysis/cohort_data_analysis/metadata_files` and `R_analysis/fmt_data_analysis/metadata_files`
+Example metadata files can be found in 
+```
+R_analysis/cohort_data_analysis/metadata_files
+```
+and 
+```
+R_analysis/fmt_data_analysis/metadata_files
+```
 
 These contain headers and mock samples of how the metadata was formatted.
 
