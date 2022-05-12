@@ -101,7 +101,7 @@ cp eukdetect_config_files/*yml tools/EukDetect-master
 
 *NOTE:* Due to data access constraints, all participant-associated metadata files have been removed. 
 
-Example metadata files can be found in 
+For reproducibility, example metadata files can be found in 
 ```
 R_analysis/cohort_data_analysis/metadata_files
 ```
