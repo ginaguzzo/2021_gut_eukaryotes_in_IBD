@@ -19,13 +19,14 @@ The analysis is split into two sub-analyses of three shotgun metagenomic dataset
 -	MultiQC 
 -	GNU Parallel
 -	Fastp (v0.20.0)
--	Kneaddata (v0.7.2)
+-	KneadData (v0.7.2)
 -	Pigz
 -	Seqtk
--	Eukdetect (v1.2)
+-	EukDetect (v1.2)
 -	RiboTagger (v0.8.0)
 
 #### R packages
+- R version >=4.0.2
 - Phyloseq (v1.38.0)
 
 ## Workflow
@@ -37,4 +38,64 @@ The workflow is run in the following order:
 **2. R_analysis**
    - R code for results exploration and generating figures and tables.
 
-See the respective README files for details on how to run each of these analyses.
+## Setting up
+1.	Clone this repository onto your local machine.
+```
+git clone https://github.com/ginaguzzo/2021_gut_eukaryotes_in_IBD.git
+cd 2021_gut_eukaryotes_in_IBD
+```
+
+2.	Download samples and copy them to their respective directories.
+```
+cp EGA*gz Bioinformatic_pipeline/1000ibd_data/raw_files
+cp SRR5*gz Bioinformatic_pipeline/500fg_data/raw_files
+cp SRR1*gz Bioinformatic_pipeline/fmt_data/raw_files
+```
+
+3. Metadata files for the 1000IBD and 500FG cohorts should be copied to `R_analysis/cohort_data_analysis/metadata_files`
+
+4. Metadata for the FMT data should be copied to `R_analysis/fmt_data_analysis/metadata_files`
+
+
+## Running the pipeline
+1. Change to the pipeline directory.
+```
+cd Bioinformatic_pipeline
+```
+
+2. Make a conda environment called `euks_in_ibd` with py2.7.
+```
+conda create -n euks_in_ibd python=2.7
+```
+
+3. Install the [required conda packages](https://github.com/ginaguzzo/2021_gut_eukaryotes_in_IBD/edit/main/README.md#conda-packages) EXCEPT for eukdetect.
+
+     *NOTE:* Clone the Kneaddata and RiboTagger repos to `Bioinformatic_pipeline/tools/` before installing
+ 
+4.	Eukdetect should be installed in its own environment according to the instructions.
+
+     *NOTE:* Clone the EukDetect repo to `Bioinformatic_pipeline/tools/`
+
+5.	Edit the paths in the .yml files in `eukdetect_config_files` to include the absolute path from your home directory. 
+
+6.	Copy config files to the Eukdetect installation directory.
+```
+cp eukdetect_config_files/*yml tools/EukDetect-master
+```
+
+7.	The pipeline scripts should be run in the order they are numbered, from 1-8.
+
+
+## Running the R analysis
+1. Install the [required R packages](https://github.com/ginaguzzo/2021_gut_eukaryotes_in_IBD/edit/main/README.md#r-packages) in R studio. 
+
+2. The scripts should be run in the order they are numbered.
+
+
+
+*NOTE:* Due to data access constraints, all participant-associated metadata files have been removed. 
+
+Example metadata files can be found in `R_analysis/cohort_data_analysis/metadata_files` and `R_analysis/fmt_data_analysis/metadata_files`
+
+These contain headers and mock samples of how the metadata was formatted.
+
