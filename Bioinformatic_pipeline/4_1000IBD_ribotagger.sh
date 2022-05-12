@@ -89,5 +89,5 @@ sed -i '1 s/^/sampleid\t/' tmp.txt
 cat ribotagger_all_v_region_hits.txt >> tmp.txt ; mv tmp.txt 1000ibd_ribotagger_all_v_region_hits.txt
 
 # Copy results file to directory for R analysis
-cp 1000ibd_ribotagger_all_v_region_hits.txt R_analysis/cohort_data_analysis/results
+cp 1000ibd_ribotagger_all_v_region_hits.txt ../../../../../R_analysis/cohort_data_analysis/results
 
