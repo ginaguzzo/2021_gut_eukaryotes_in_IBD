@@ -104,7 +104,7 @@ cp eukdetect_config_files/*yml tools/EukDetect-master
 
 
 
-*NOTE:* Due to data access constraints, all participant-associated metadata files have been removed. 
+*NOTE:* Due to ethical requirements, all participant-associated metadata files have been removed. 
 
 For reproducibility, example metadata files can be found in 
 ```
