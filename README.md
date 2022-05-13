@@ -27,7 +27,14 @@ The analysis is split into two sub-analyses of three shotgun metagenomic dataset
 
 #### R packages
 - R version >=4.0.2
-- Phyloseq (v1.38.0)
+- phyloseq (v1.38.0)
+- gridExtra (v2.3)
+- patchwork (v1.1.1)
+- cowplot (v1.1.1)
+- pscl (v1.5.5)
+- sandwich (v3.0-1)
+- lmtest (v0.9-39)
+
 
 ## Workflow
 The workflow is run in the following order:
@@ -52,14 +59,9 @@ mv SRR5*gz Bioinformatic_pipeline/500fg_data/raw_files
 mv SRR1*gz Bioinformatic_pipeline/fmt_data/raw_files
 ```
 
-3. Metadata files for the 1000IBD and 500FG cohorts should be moved to: 
+3. Metadata files for all three cohorts should be moved to: 
 ```
-R_analysis/cohort_data_analysis/metadata_files
-```
-
-4. Metadata for the FMT data should be moved to: 
-```
-R_analysis/fmt_data_analysis/metadata_files
+R_analysis/metadata_files
 ```
 
 
@@ -100,7 +102,7 @@ cp eukdetect_config_files/*yml tools/EukDetect-master
 ## Running the R analysis
 1. Install the [required R packages](https://github.com/ginaguzzo/2021_gut_eukaryotes_in_IBD#r-packages) in R studio. 
 
-2. The scripts should be run in the order they are numbered.
+2. The scripts are located in `R_analysis` and should be run in the order they are numbered.
 
 
 
@@ -108,12 +110,9 @@ cp eukdetect_config_files/*yml tools/EukDetect-master
 
 For reproducibility, example metadata files can be found in 
 ```
-R_analysis/cohort_data_analysis/metadata_files
+R_analysis/metadata_files
 ```
-and 
-```
-R_analysis/fmt_data_analysis/metadata_files
-```
+
 
 These contain headers and mock samples of how the metadata was formatted.
 
