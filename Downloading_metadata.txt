@@ -1,0 +1,29 @@
+##############################
+#### DOWNLOADING METADATA ####
+##############################
+
+## 1000IBD metadata was downloaded with the metagenomic samples, once access was granted.
+
+
+
+## 500FG metadata is available through this database: https://hfgp.bbmri.nl/menu/500fgdata/dataexplorer?entity=FG500_public_data
+## However, some attributes such as height and weight were received from the study administrator.
+
+
+
+## FMT study metadata was downloaded from the original publication by Sokol et al. (2020) in Additional File 3.  
+
+wget https://static-content.springer.com/esm/art%3A10.1186%2Fs40168-020-0792-5/MediaObjects/40168_2020_792_MOESM3_ESM.txt R_analysis/metadata_files
+
+mv 40168_2020_792_MOESM3_ESM.txt raw_metadata_Sokoletal2020.txt
+
+## The metagenomic samples were downloaded from the second paper's accession (Kong et al. 2020) as the first paper was 16S only.
+## The sample IDs needed to be matched to the participant metadata:
+
+## 1. Download sample IDs from https://www.ebi.ac.uk/ena/browser/view/PRJNA625520?show=reads
+## 2. Select: "run_accession" and "sample_title"
+## 3. Download TSV file to R_analysis/metadata_files
+
+mv filereport_read_run_PRJNA625520_tsv.txt raw_metadata_Kongetal2020.txt
+
+## 4. See R_analysis/9_formatting_fmt_metadata.R for merging.
