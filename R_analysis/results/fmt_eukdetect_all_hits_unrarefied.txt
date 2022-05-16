@@ -1,0 +1,59 @@
+sampleid	Name	Taxid	Observed_markers	Read_counts	Percent_observed_markers	Total_marker_coverage	Percent_identity
+SRR11599159	Pichia fermentans	53655	3	5	2.04%	8.77%	99.53%
+SRR11599159	Candida tropicalis MYA-3404	294747	2	4	1.17%	6.34%	99.2%
+SRR11599155	Saccharomyces cerevisiae S288C	559292	68	95	37.36%	7.76%	99.55%
+SRR11599156	Saccharomyces cerevisiae S288C	559292	10	10	5.49%	4.81%	100.0%
+SRR11599156	Penicillium nalgiovense	60175	5	6	2.42%	4.33%	100.0%
+SRR11599156	Debaryomyces hansenii CBS767	284592	4	5	2.19%	7.9%	100.0%
+SRR11599156	Penicillium	5073	3	4	0.56%	9.15%	100.0%
+SRR11599153	Saccharomyces cerevisiae S288C	559292	5	5	2.75%	5.1%	100.0%
+SRR11599154	Saccharomyces cerevisiae S288C	559292	14	17	7.69%	7.22%	99.73%
+SRR11599150	Penicillium roqueforti FM164	1365484	4	4	2.01%	4.87%	100.0%
+SRR11599152	Penicillium roqueforti FM164	1365484	3	4	1.51%	8.82%	100.0%
+SRR11599149	Penicillium roqueforti FM164	1365484	3	4	1.51%	5.67%	100.0%
+SRR11599143	Pichia kluyveri	36015	13	19	12.26%	6.89%	98.96%
+SRR11599143	Torulaspora delbrueckii	4950	3	4	1.71%	6.25%	98.3%
+SRR11599144	Clavispora lusitaniae ATCC 42720	306902	10	10	5.78%	3.22%	99.32%
+SRR11599142	Blastocystis sp. subtype 2	944160	21	202	100.0%	43.4%	98.83%
+SRR11599141	Saccharomyces cerevisiae S288C	559292	55	72	30.22%	7.18%	99.65%
+SRR11599133	Blastocystis sp. subtype 4	944170	4	14	40.0%	20.04%	99.77%
+SRR11599177	Blastocystis sp. ATCC 50177/Nand II	478820	11	32	55.0%	15.03%	99.21%
+SRR11599129	Blastocystis sp. ATCC 50177/Nand II	478820	5	15	25.0%	13.24%	99.14%
+SRR11599118	Blastocystis sp. ATCC 50177/Nand II	478820	10	14	50.0%	9.23%	99.03%
+SRR11599096	Blastocystis sp. ATCC 50177/Nand II	478820	10	22	50.0%	12.12%	99.03%
+SRR11599151	Blastocystis sp. ATCC 50177/Nand II	478820	10	14	50.0%	8.6%	99.36%
+SRR11599140	Blastocystis sp. ATCC 50177/Nand II	478820	3	4	15.0%	8.52%	98.87%
+SRR11599114	Penicillium roqueforti FM164	1365484	3	6	1.51%	4.66%	100.0%
+SRR11599110	Candida albicans SC5314	237561	13	15	7.74%	5.7%	99.75%
+SRR11599110	Saccharomyces cerevisiae S288C	559292	8	8	4.4%	9.1%	100.0%
+SRR11599109	Saccharomyces cerevisiae S288C	559292	10	13	5.49%	5.44%	99.77%
+SRR11599108	Pichia kudriavzevii	4909	5	5	3.16%	3.04%	100.0%
+SRR11599106	Saccharomyces cerevisiae S288C	559292	5	5	2.75%	6.85%	100.0%
+SRR11599106	Diutina catenulata	45537	3	5	1.99%	7.74%	99.54%
+SRR11599162	Debaryomyces hansenii CBS767	284592	7	8	3.83%	7.69%	99.71%
+SRR11599162	Penicillium roqueforti FM164	1365484	6	6	3.02%	4.57%	100.0%
+SRR11599162	Saccharomyces cerevisiae S288C	559292	4	4	2.2%	6.86%	99.6%
+SRR11599122	Saccharomyces cerevisiae S288C	559292	11	11	6.04%	4.93%	99.86%
+SRR11599123	Saccharomyces cerevisiae S288C	559292	22	26	12.09%	5.62%	99.82%
+SRR11599123	Pichia kudriavzevii	4909	4	4	2.53%	2.87%	99.81%
+SRR11599117	Saccharomyces cerevisiae S288C	559292	10	12	5.49%	7.6%	99.55%
+SRR11599116	Saccharomyces cerevisiae S288C	559292	49	69	26.92%	7.85%	99.61%
+SRR11599121	Saccharomyces cerevisiae S288C	559292	19	20	10.44%	6.22%	99.66%
+SRR11599120	Saccharomyces cerevisiae S288C	559292	8	8	4.4%	4.91%	99.9%
+SRR11599097	Saccharomyces cerevisiae S288C	559292	14	15	7.69%	5.42%	99.9%
+SRR11599097	Candida albicans SC5314	237561	4	4	2.38%	9.14%	100.0%
+SRR11599098	Saccharomyces cerevisiae S288C	559292	37	48	20.33%	7.23%	99.75%
+SRR11599098	Candida albicans SC5314	237561	5	5	2.98%	4.62%	99.55%
+SRR11599098	Debaryomyces hansenii CBS767	284592	4	5	2.19%	7.85%	99.85%
+SRR11599095	Saccharomyces cerevisiae S288C	559292	69	115	37.91%	8.89%	99.78%
+SRR11599169	Blastocystis sp. ATCC 50177/Nand II	478820	15	74	75.0%	23.55%	99.18%
+SRR11599078	Penicillium roqueforti FM164	1365484	4	4	2.01%	5.7%	100.0%
+SRR11599075	Penicillium roqueforti FM164	1365484	7	7	3.52%	4.66%	100.0%
+SRR11599073	Penicillium roqueforti FM164	1365484	5	5	2.51%	5.15%	100.0%
+SRR11599072	Penicillium roqueforti FM164	1365484	33	38	16.58%	6.69%	100.0%
+SRR11599076	Penicillium roqueforti FM164	1365484	4	4	2.01%	6.38%	100.0%
+SRR11599069	Saccharomyces cerevisiae S288C	559292	20	26	10.99%	6.11%	99.77%
+SRR11599069	Debaryomyces hansenii CBS767	284592	4	4	2.19%	5.74%	100.0%
+SRR11599066	Debaryomyces hansenii CBS767	284592	92	181	50.27%	10.84%	99.41%
+SRR11599066	Kluyveromyces lactis	28985	7	9	4.29%	4.15%	99.91%
+SRR11599066	Kluyveromyces marxianus DMKU3-1042	1003335	4	5	2.44%	8.19%	99.85%

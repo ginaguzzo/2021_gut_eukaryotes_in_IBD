@@ -1,0 +1,77 @@
+---
+title: "Table 1. Summary characteristics of the study groups."
+output:
+  word_document: default
+  html_document:
+    df_print: paged
+  pdf_document: default
+
+---
+
+```{r, include = FALSE}
+
+## R Markdown
+library(dplyr)
+library(kableExtra)
+library(rmarkdown)
+set.seed(42)
+library(qwraps2)
+
+# define the markup language we are working in.
+# options(qwraps2_markup = "latex") is also supported.
+options(qwraps2_markup = "markdown")
+
+
+metadata <- read.csv(file = "metadata_files/cohort_metadata_combined.csv")
+
+metadata %>% 
+  group_by(diagnosis_last_record=="CD", Montreal_L) %>%
+  summarise(n()) #Type of CD in cohort
+
+
+table_summary <-
+  list("Sex" =
+         list("Female"    = ~ n_perc(sex=="Female"),
+              "Male"      = ~ n_perc(sex=="Male"),
+              "Unspecified" = ~ n_perc(sex=="")),
+       "Age (years)" =
+         list("Median (IQR)" = ~ median_iqr(age, na_rm=T, show_n = "never")),
+       "BMI" =
+         list("Median (IQR)" = ~ median_iqr(bmi, na_rm=T, show_n = "never"),
+              "Missing" = ~sum(is.na(bmi))),
+       "Diagnosis" =
+         list("CD"       = ~ n_perc(diagnosis_last_record=="CD", show_denom = "never"),
+              "UC"       = ~ n_perc(diagnosis_last_record=="UC", show_denom = "never"),
+              "IBDU" = ~ n_perc(diagnosis_last_record=="IBDU", show_denom = "never")),
+       "Time since diagnosis (years)" =
+         list("Median (IQR)" = ~ median_iqr(duration_of_disease, na_rm=T, show_n = "never"),
+              "Missing" = ~sum(is.na(duration_of_disease))),
+       "Age at onset (years)" =
+         list("Median (IQR)" = ~ median_iqr(age_at_onset, na_rm=T, show_n = "never"),
+              "Missing" = ~sum(is.na(age_at_onset))),
+       "Smoking status" =
+         list("Yes" = ~n_perc(smoking_now==1, na_rm=T, show_denom = "never"),
+              "No"  = ~n_perc(smoking_now==0, na_rm=T, show_denom = "never"),
+              "Missing" = ~sum(is.na(smoking_now)))
+  )
+
+whole <- summary_table(metadata, table_summary)
+whole
+metadata$disease <- factor(metadata$disease, order = TRUE, 
+                           levels = c("IBD", "control"))
+by_disease_state <- summary_table(dplyr::group_by(metadata, disease), table_summary)  
+
+
+```
+
+
+
+```{r, echo = FALSE, results = "asis"}
+print(by_disease_state,
+      rtitle = "Summary Statistics",
+      cnames = c("IBD patients (N = 355)", "Controls (N = 471)"))
+```
+
+```{r check-wd}
+getwd()
+```

@@ -1,0 +1,61 @@
+sampleid	Name	Taxid	Observed_markers	Read_counts	Percent_observed_markers	Total_marker_coverage	Percent_identity
+1000IBD00010	Saccharomyces cerevisiae S288C	559292	23	48	12.64%	6.05%	99.86%
+1000IBD00016	Saccharomyces cerevisiae S288C	559292	2	4	1.1%	7.28%	100.0%
+1000IBD00035	Clavispora lusitaniae ATCC 42720	306902	2	4	1.16%	2.68%	99.58%
+1000IBD00050	[Candida] glabrata	5478	2	4	1.25%	4.41%	100.0%
+1000IBD00053	Saccharomyces cerevisiae S288C	559292	2	4	1.1%	5.8%	100.0%
+1000IBD00107	Saccharomyces cerevisiae S288C	559292	48	131	26.37%	7.34%	99.78%
+1000IBD00114	Saccharomyces cerevisiae S288C	559292	4	8	2.2%	7.49%	99.85%
+1000IBD00155	Saccharomyces cerevisiae S288C	559292	11	24	6.04%	8.0%	99.67%
+1000IBD00157	Malassezia restricta	76775	2	4	1.33%	1.56%	99.62%
+1000IBD00173	Penicillium roqueforti FM164	1365484	3	5	1.51%	4.83%	100.0%
+1000IBD00187	Saccharomyces cerevisiae S288C	559292	3	5	1.65%	5.18%	100.0%
+1000IBD00188	Saccharomyces cerevisiae S288C	559292	7	14	3.85%	4.96%	99.9%
+1000IBD00198	Blastocystis sp. subtype 4	944170	4	7	40.0%	8.68%	99.37%
+1000IBD00202	Blastocystis hominis	12968	3	6	23.08%	8.18%	98.95%
+1000IBD00206	Blastocystis sp. subtype 2	944160	4	5	19.05%	7.14%	99.18%
+1000IBD00208	Blastocystis sp. subtype 4	944170	3	7	30.0%	12.14%	99.48%
+1000IBD00225	Saccharomyces cerevisiae S288C	559292	11	21	6.04%	4.87%	99.57%
+1000IBD00239	Blastocystis sp. ATCC 50177/Nand II	478820	2	4	10.0%	3.11%	99.4%
+1000IBD00255	Candida albicans SC5314	237561	2	4	1.19%	5.88%	100.0%
+1000IBD00329	Saccharomyces cerevisiae S288C	559292	2	4	1.1%	3.19%	99.61%
+1000IBD00339	[Candida] glabrata	5478	3	6	1.88%	4.22%	99.58%
+1000IBD00342	Blastocystis sp. subtype 3	944168	7	14	31.82%	7.02%	99.56%
+1000IBD00345	Saccharomyces cerevisiae S288C	559292	6	12	3.3%	9.38%	99.21%
+1000IBD00349	Blastocystis sp. subtype 4	944170	3	9	30.0%	12.02%	99.74%
+1000IBD00367	Saccharomyces cerevisiae S288C	559292	2	4	1.1%	8.32%	100.0%
+1000IBD00370	Saccharomyces cerevisiae S288C	559292	2	4	1.1%	17.79%	100.0%
+1000IBD00401	Saccharomyces cerevisiae S288C	559292	7	13	3.85%	5.84%	99.9%
+1000IBD00401	[Candida] glabrata	5478	5	10	3.12%	5.78%	99.68%
+1000IBD00419	[Candida] glabrata	5478	6	12	3.75%	5.59%	99.6%
+1000IBD00431	Blastocystis sp. subtype 2	944160	11	35	52.38%	10.65%	98.4%
+1000IBD00470	[Candida] glabrata	5478	5	9	3.12%	9.85%	99.89%
+1000IBD00510	Blastocystis sp. subtype 2	944160	18	91	85.71%	19.49%	98.83%
+1000IBD00512	Saccharomyces cerevisiae S288C	559292	7	14	3.85%	5.36%	99.77%
+1000IBD00541	Saccharomyces cerevisiae S288C	559292	3	6	1.65%	10.06%	100.0%
+1000IBD00550	[Candida] glabrata	5478	23	49	14.37%	6.93%	99.59%
+1000IBD00550	Saccharomyces cerevisiae S288C	559292	25	53	13.74%	5.99%	99.63%
+1000IBD00556	Saccharomyces cerevisiae S288C	559292	57	147	31.32%	7.45%	99.69%
+1000IBD00569	Saccharomyces cerevisiae S288C	559292	3	6	1.65%	2.06%	99.64%
+1000IBD00586	Saccharomyces cerevisiae S288C	559292	4	7	2.2%	11.19%	99.57%
+1000IBD00593	Saccharomyces cerevisiae S288C	559292	3	6	1.65%	6.2%	99.01%
+1000IBD00593	Wickerhamomyces anomalus NRRL Y-366-8	683960	2	4	1.14%	8.86%	97.66%
+1000IBD00610	Saccharomyces cerevisiae S288C	559292	2	4	1.1%	4.52%	99.5%
+1000IBD00613	Blastocystis sp. subtype 2	944160	3	7	14.29%	6.74%	98.36%
+1000IBD00644	Blastocystis sp. subtype 3	944168	4	6	18.18%	6.17%	99.81%
+1000IBD00670	Saccharomyces cerevisiae S288C	559292	2	4	1.1%	2.92%	100.0%
+1000IBD00676	Debaryomyces hansenii CBS767	284592	2	4	1.09%	5.9%	100.0%
+1000IBD00682	Blastocystis sp. subtype 3	944168	5	15	22.73%	5.93%	99.69%
+1000IBD00682	Saccharomyces cerevisiae S288C	559292	9	15	4.95%	7.45%	99.68%
+1000IBD00698	Saccharomyces cerevisiae S288C	559292	2	4	1.1%	4.69%	100.0%
+1000IBD00385	Saccharomyces cerevisiae S288C	559292	3	6	1.65%	4.83%	100.0%
+1000IBD00394	Debaryomyces hansenii CBS767	284592	2	4	1.09%	11.27%	100.0%
+1000IBD00476	Blastocystis sp. subtype 4	944170	3	10	30.0%	12.13%	100.0%
+1000IBD00480	Blastocystis sp. subtype 2	944160	4	7	19.05%	4.57%	98.53%
+1000IBD00487	Saccharomyces cerevisiae S288C	559292	6	12	3.3%	4.73%	98.91%
+1000IBD00581	Saccharomyces cerevisiae S288C	559292	31	70	17.03%	5.19%	99.54%
+1000IBD00581	Candida albicans SC5314	237561	13	30	7.74%	5.64%	99.75%
+1000IBD00675	Debaryomyces hansenii CBS767	284592	14	26	7.65%	4.27%	99.4%
+1000IBD00679	Saccharomyces cerevisiae S288C	559292	10	16	5.49%	4.48%	99.43%
+1000IBD00705	Saccharomyces cerevisiae S288C	559292	2	4	1.1%	3.24%	100.0%
+1000IBD00715	Saccharomyces cerevisiae S288C	559292	6	12	3.3%	3.06%	99.45%

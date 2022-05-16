@@ -1,0 +1,10 @@
+sampleid,ID_sample,ID_TMF,donor_patient,donor,FMT_SHAM,remission_W10,remission_W24,Outcome,Timepoint,CDEIS_D0,CDEIS_W6,sex,Age,Montreal,Perianal_lesion,hemog_j0,plat_D0,crp_D0,calprot_D0,hbiscore_D0,cdaiscore_D0,cdeisscore_D0,Active_smoking,sample_description
+SRR1234567,1_1_XX,1_1_XX,patient,7_1_ZZ_D1,FMT,yes,yes,success_FMT,D0,0.5,0.05,male,30,L1,no,13,270,3,30,0,40,0.5,no,1_1_D0
+SRR1234567,1_1_XX,1_1_XX,patient,7_1_ZZ_D2,FMT,yes,yes,success_FMT,W10,0.5,0.05,male,30,L1,no,13,270,3,30,0,40,0.5,no,1_1_W10
+SRR1234567,1_1_XX,1_1_XX,patient,7_1_ZZ_D3,FMT,yes,yes,success_FMT,W14,0.5,0.05,male,30,L1,no,13,270,3,30,0,40,0.5,no,1_1_W14
+SRR1234567,1_1_XX,1_1_XX,patient,7_1_ZZ_D4,FMT,yes,yes,success_FMT,W18,0.5,0.05,male,30,L1,no,13,270,3,30,0,40,0.5,no,1_1_W18
+SRR1234567,1_1_XX,1_1_XX,patient,7_1_ZZ_D5,FMT,yes,yes,success_FMT,W-2,0.5,0.05,male,30,L1,no,13,270,3,30,0,40,0.5,no,1_1_W-2
+SRR1234567,1_1_XX,1_1_XX,patient,7_1_ZZ_D6,FMT,yes,yes,success_FMT,W2,0.5,0.05,male,30,L1,no,13,270,3,30,0,40,0.5,no,1_1_W2
+SRR1234567,1_1_XX,1_1_XX,patient,7_1_ZZ_D7,FMT,yes,yes,success_FMT,W24,0.5,0.05,male,30,L1,no,13,270,3,30,0,40,0.5,no,1_1_W24
+SRR1234567,1_1_XX,1_1_XX,patient,7_1_ZZ_D8,FMT,yes,yes,success_FMT,W6,0.5,0.05,male,30,L1,no,13,270,3,30,0,40,0.5,no,1_1_W6
+SRR1111111,7_1_QQ,7_1_QQ,donor,donor,donor,donor,donor,failure_FMT,donor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,7_1

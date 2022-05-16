@@ -1,0 +1,6 @@
+sampleid,disease,sex,height,weight,age,bmi,diagnosis_initial,first_diagnosis_year,age_at_onset,diagnosis_last_record,diagnosis_last_record_year,age_at_last_record_diagnosis,Montreal_A,Montreal_L,Montreal_B,Montreal_E,Montreal_S,EIM_eye,EIM_skin,EIM_arthro,EIM_arthri,EIM_dvt,EIM_osteo,smoking_past,smoking_now,Montreal_L4,Montreal_Bp,duration_of_disease,oral_contraceptive
+1000IBD12345,IBD,Female,160,60,30,23.44,CD,2010,20,CD,2016,29,A3,L1,B3,NA,NA,0,0,0,0,0,0,0,0,No,1,7,NA
+1000IBD11111,IBD,Male,170,70,40,24.22,UC,2000,20,UC,2016,39,A2,L2,NA,E3,S4,0,0,0,0,0,0,1,0,NA,NA,17,NA
+1000IBD22222,IBD,Female,180,80,50,24.69,IBDU,1990,20,IBDU,2016,49,A1,NA,NA,NA,NA,0,0,1,0,0,0,0,0,NA,0,27,NA
+SRR5123456,control,Female,160,60,30,23.44,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,NA,NA,NA,no
+SRR5111111,control,Male,170,70,40,24.22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,NA,NA,NA,

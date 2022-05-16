@@ -1,0 +1,318 @@
+sampleid,Taxa,Taxa_ID,Observed_markers,Read_counts,Percent_observed_markers,Total_marker_coverage,Percent_identity
+1000IBD00010,Saccharomyces cerevisiae S288C,559292,55,145,30.22%,7.88%,99.57%
+1000IBD00014,Candida albicans SC5314,237561,11,26,6.55%,9.66%,100.0%
+1000IBD00016,Saccharomyces cerevisiae S288C,559292,11,19,6.04%,8.64%,99.8%
+1000IBD00035,Saccharomyces cerevisiae S288C,559292,4,8,2.2%,4.8%,100.0%
+1000IBD00035,Clavispora lusitaniae ATCC 42720,306902,2,4,1.16%,2.68%,99.58%
+1000IBD00041,Saccharomyces cerevisiae S288C,559292,6,11,3.3%,3.79%,99.19%
+1000IBD00046,Saccharomyces cerevisiae S288C,559292,2,4,1.1%,8.79%,98.9%
+1000IBD00050,Candida glabrata,5478,5,12,3.12%,5.83%,99.87%
+1000IBD00053,Saccharomyces cerevisiae S288C,559292,5,11,2.75%,6.74%,99.64%
+1000IBD00058,Saccharomyces cerevisiae S288C,559292,6,10,3.3%,4.04%,99.64%
+1000IBD00067,Saccharomyces cerevisiae S288C,559292,4,12,2.2%,9.4%,99.63%
+1000IBD00067,Candida albicans SC5314,237561,3,7,1.79%,7.94%,99.84%
+1000IBD00084,Saccharomyces cerevisiae S288C,559292,2,4,1.1%,3.3%,100.0%
+1000IBD00103,Saccharomyces cerevisiae S288C,559292,8,16,4.4%,4.67%,99.91%
+1000IBD00107,Saccharomyces cerevisiae S288C,559292,120,520,65.93%,13.52%,99.68%
+1000IBD00114,Saccharomyces cerevisiae S288C,559292,29,63,15.93%,7.71%,99.68%
+1000IBD00122,Saccharomyces cerevisiae S288C,559292,3,6,1.65%,3.8%,99.71%
+1000IBD00154,Saccharomyces cerevisiae S288C,559292,2,4,1.1%,8.36%,99.45%
+1000IBD00155,Saccharomyces cerevisiae S288C,559292,30,65,16.48%,7.19%,99.56%
+1000IBD00157,Malassezia restricta,76775,3,6,2.0%,1.71%,99.49%
+1000IBD00173,Penicillium roqueforti FM164,1365484,6,11,3.02%,5.7%,100.0%
+1000IBD00187,Saccharomyces cerevisiae S288C,559292,18,38,9.89%,4.92%,99.61%
+1000IBD00188,Saccharomyces cerevisiae S288C,559292,20,44,10.99%,5.31%,99.68%
+1000IBD00197,Saccharomyces cerevisiae S288C,559292,2,4,1.1%,2.59%,100.0%
+1000IBD00198,Blastocystis sp. subtype 4,944170,8,31,80.0%,13.44%,99.77%
+1000IBD00202,Blastocystis hominis,12968,3,10,23.08%,12.27%,99.07%
+1000IBD00204,Saccharomyces cerevisiae S288C,559292,4,8,2.2%,3.42%,99.68%
+1000IBD00206,Blastocystis sp. subtype 2,944160,7,24,33.33%,9.89%,99.13%
+1000IBD00208,Blastocystis sp. subtype 4,944170,7,29,70.0%,17.13%,99.78%
+1000IBD00225,Saccharomyces cerevisiae S288C,559292,37,87,20.33%,6.01%,99.76%
+1000IBD00228,Saccharomyces cerevisiae S288C,559292,5,9,2.75%,4.16%,99.73%
+1000IBD00239,Blastocystis sp. ATCC 50177/Nand II,478820,7,21,35.0%,9.51%,99.25%
+1000IBD00255,Candida albicans SC5314,237561,2,4,1.19%,5.88%,100.0%
+1000IBD00266,Saccharomyces cerevisiae S288C,559292,3,6,1.65%,9.59%,100.0%
+1000IBD00277,Saccharomyces cerevisiae S288C,559292,3,6,1.65%,4.52%,99.8%
+1000IBD00281,Saccharomyces cerevisiae S288C,559292,4,7,2.2%,6.0%,100.0%
+1000IBD00301,Candida glabrata,5478,9,19,5.62%,5.1%,99.73%
+1000IBD00304,Saccharomyces cerevisiae S288C,559292,5,9,2.75%,4.13%,99.64%
+1000IBD00310,Saccharomyces cerevisiae S288C,559292,2,4,1.1%,5.93%,100.0%
+1000IBD00329,Saccharomyces cerevisiae S288C,559292,2,4,1.1%,3.19%,99.61%
+1000IBD00339,Candida glabrata,5478,5,12,3.12%,8.2%,99.54%
+1000IBD00342,Blastocystis sp. subtype 3,944168,14,53,63.64%,13.04%,99.44%
+1000IBD00345,Saccharomyces cerevisiae S288C,559292,13,24,7.14%,7.19%,99.4%
+1000IBD00349,Blastocystis sp. subtype 4,944170,10,66,100.0%,26.83%,99.77%
+1000IBD00367,Saccharomyces cerevisiae S288C,559292,4,7,2.2%,7.89%,99.59%
+1000IBD00370,Saccharomyces cerevisiae S288C,559292,3,7,1.65%,5.92%,99.63%
+1000IBD00389,Candida glabrata,5478,5,11,3.12%,12.47%,99.77%
+1000IBD00401,Saccharomyces cerevisiae S288C,559292,52,137,28.57%,7.93%,99.74%
+1000IBD00401,Candida glabrata,5478,26,61,16.25%,8.1%,99.75%
+1000IBD00416,Saccharomyces cerevisiae S288C,559292,3,6,1.65%,11.49%,98.06%
+1000IBD00419,Candida glabrata,5478,17,45,10.62%,5.91%,99.65%
+1000IBD00427,Blastocystis sp. subtype 9,1544353,6,29,54.55%,16.05%,99.6%
+1000IBD00431,Blastocystis sp. subtype 2,944160,15,82,71.43%,19.69%,98.81%
+1000IBD00433,Blastocystis sp. subtype 3,944168,5,7,22.73%,6.75%,99.39%
+1000IBD00442,Penicillium roqueforti FM164,1365484,7,15,3.52%,5.6%,100.0%
+1000IBD00469,Saccharomyces cerevisiae S288C,559292,3,6,1.65%,4.07%,99.75%
+1000IBD00470,Candida glabrata,5478,25,59,15.62%,9.12%,99.62%
+1000IBD00470,Candida albicans SC5314,237561,2,4,1.19%,10.34%,99.5%
+1000IBD00485,Saccharomyces cerevisiae S288C,559292,2,4,1.1%,4.52%,100.0%
+1000IBD00495,Saccharomyces cerevisiae S288C,559292,2,4,1.1%,7.23%,100.0%
+1000IBD00502,Saccharomyces cerevisiae S288C,559292,4,7,2.2%,7.23%,100.0%
+1000IBD00505,Saccharomyces cerevisiae S288C,559292,4,8,2.2%,2.56%,99.35%
+1000IBD00510,Blastocystis sp. subtype 2,944160,21,300,100.0%,43.0%,98.72%
+1000IBD00511,Saccharomyces cerevisiae S288C,559292,5,10,2.75%,5.68%,99.53%
+1000IBD00512,Saccharomyces cerevisiae S288C,559292,41,95,22.53%,7.39%,99.69%
+1000IBD00514,Blastocystis sp. subtype 3,944168,8,34,36.36%,13.58%,99.69%
+1000IBD00535,Saccharomyces cerevisiae S288C,559292,8,20,4.4%,6.1%,99.36%
+1000IBD00535,Candida albicans SC5314,237561,2,4,1.19%,4.25%,100.0%
+1000IBD00541,Saccharomyces cerevisiae S288C,559292,6,12,3.3%,4.49%,100.0%
+1000IBD00550,Candida glabrata,5478,46,109,28.75%,9.09%,99.58%
+1000IBD00550,Saccharomyces cerevisiae S288C,559292,46,106,25.27%,7.72%,99.73%
+1000IBD00556,Saccharomyces cerevisiae S288C,559292,128,582,70.33%,15.5%,99.66%
+1000IBD00563,Penicillium roqueforti FM164,1365484,3,6,1.51%,5.29%,100.0%
+1000IBD00565,Saccharomyces cerevisiae S288C,559292,2,4,1.1%,5.89%,99.66%
+1000IBD00569,Saccharomyces cerevisiae S288C,559292,8,18,4.4%,4.07%,99.68%
+1000IBD00586,Saccharomyces cerevisiae S288C,559292,16,31,8.79%,5.78%,99.61%
+1000IBD00593,Saccharomyces cerevisiae S288C,559292,5,10,2.75%,3.1%,99.37%
+1000IBD00593,Meyerozyma,766728,3,6,1.94%,8.2%,100.0%
+1000IBD00593,Wickerhamomyces anomalus NRRL Y-366-8,683960,2,4,1.14%,8.86%,97.66%
+1000IBD00598,Debaryomyces hansenii CBS767,284592,6,13,3.28%,4.25%,99.5%
+1000IBD00598,Saccharomyces cerevisiae S288C,559292,2,4,1.1%,4.13%,99.48%
+1000IBD00610,Saccharomyces cerevisiae S288C,559292,5,10,2.75%,5.52%,99.56%
+1000IBD00613,Blastocystis sp. subtype 2,944160,10,28,47.62%,7.75%,99.19%
+1000IBD00624,Saccharomyces cerevisiae S288C,559292,9,15,4.95%,3.16%,99.6%
+1000IBD00627,Penicillium roqueforti FM164,1365484,4,10,2.01%,6.59%,100.0%
+1000IBD00644,Blastocystis sp. subtype 3,944168,7,20,31.82%,7.35%,99.67%
+1000IBD00645,Saccharomyces cerevisiae S288C,559292,4,7,2.2%,4.88%,99.85%
+1000IBD00646,Blastocystis sp. subtype 3,944168,6,12,27.27%,5.88%,99.67%
+1000IBD00649,Saccharomyces cerevisiae S288C,559292,5,10,2.75%,3.88%,99.87%
+1000IBD00670,Saccharomyces cerevisiae S288C,559292,7,14,3.85%,4.72%,100.0%
+1000IBD00676,Debaryomyces hansenii CBS767,284592,10,25,5.46%,13.26%,99.95%
+1000IBD00682,Blastocystis sp. subtype 3,944168,10,36,45.45%,9.44%,99.84%
+1000IBD00682,Saccharomyces cerevisiae S288C,559292,25,46,13.74%,7.44%,99.8%
+1000IBD00698,Saccharomyces cerevisiae S288C,559292,25,49,13.74%,5.02%,99.71%
+1000IBD00385,Saccharomyces cerevisiae S288C,559292,4,7,2.2%,6.64%,99.8%
+1000IBD00394,Debaryomyces hansenii CBS767,284592,7,13,3.83%,5.18%,99.77%
+1000IBD00476,Blastocystis sp. subtype 4,944170,9,51,90.0%,19.76%,99.82%
+1000IBD00480,Blastocystis sp. subtype 2,944160,10,24,47.62%,7.45%,98.98%
+1000IBD00487,Saccharomyces cerevisiae S288C,559292,13,31,7.14%,6.07%,99.33%
+1000IBD00581,Saccharomyces cerevisiae S288C,559292,74,198,40.66%,7.69%,99.52%
+1000IBD00581,Candida albicans SC5314,237561,38,81,22.62%,7.17%,99.63%
+1000IBD00614,Saccharomyces cerevisiae S288C,559292,2,4,1.1%,6.59%,100.0%
+1000IBD00675,Debaryomyces hansenii CBS767,284592,33,67,18.03%,5.19%,99.46%
+1000IBD00679,Saccharomyces cerevisiae S288C,559292,39,79,21.43%,6.93%,99.7%
+1000IBD00680,Blastocystis sp. subtype 4,944170,2,4,20.0%,6.28%,100.0%
+1000IBD00705,Saccharomyces cerevisiae S288C,559292,2,5,1.1%,2.74%,99.74%
+1000IBD00708,Saccharomyces cerevisiae S288C,559292,6,12,3.3%,8.43%,99.69%
+1000IBD00715,Saccharomyces cerevisiae S288C,559292,23,51,12.64%,5.18%,99.51%
+1000IBD00720,Cyberlindnera jadinii NRRL Y-1542,983966,10,20,5.78%,4.6%,99.62%
+1000IBD01328,Saccharomyces cerevisiae S288C,559292,14,26,7.69%,7.56%,99.9%
+1000IBD01329,Blastocystis sp. subtype 3,944168,9,28,40.91%,8.94%,99.53%
+SRR5127393,Blastocystis sp. subtype 2,944160,4,7,19.05%,5.57%,99.11%
+SRR5127394,Saccharomyces cerevisiae S288C,559292,2,4,1.1%,8.86%,98.78%
+SRR5127397,Blastocystis sp. subtype 2,944160,16,83,76.19%,14.63%,98.9%
+SRR5127400,Blastocystis sp. subtype 3,944168,15,61,68.18%,10.92%,99.56%
+SRR5127406,Blastocystis sp. subtype 3,944168,15,62,68.18%,11.34%,99.45%
+SRR5127407,Blastocystis sp. subtype 3,944168,8,18,36.36%,6.0%,99.17%
+SRR5127408,Blastocystis sp. subtype 3,944168,4,15,18.18%,6.5%,99.29%
+SRR5127411,Blastocystis sp. ATCC 50177/Nand II,478820,18,136,90.0%,25.39%,98.97%
+SRR5127411,Saccharomyces cerevisiae S288C,559292,2,4,1.1%,8.47%,100.0%
+SRR5127412,Blastocystis sp. ATCC 50177/Nand II,478820,14,64,70.0%,15.93%,99.15%
+SRR5127417,Penicillium roqueforti FM164,1365484,59,138,29.65%,7.27%,99.97%
+SRR5127422,Saccharomyces cerevisiae S288C,559292,8,15,4.4%,7.27%,99.76%
+SRR5127425,Blastocystis sp. subtype 3,944168,7,17,31.82%,5.22%,99.46%
+SRR5127425,Saccharomyces cerevisiae S288C,559292,7,12,3.85%,5.04%,99.59%
+SRR5127425,Penicillium roqueforti FM164,1365484,2,4,1.01%,5.37%,100.0%
+SRR5127434,Blastocystis sp. subtype 2,944160,10,34,47.62%,10.47%,99.19%
+SRR5127434,Giardia lamblia ATCC 50803,184922,2,4,10.0%,8.77%,98.13%
+SRR5127437,Saccharomyces cerevisiae S288C,559292,4,7,2.2%,4.05%,99.78%
+SRR5127439,Blastocystis sp. subtype 4,944170,5,17,50.0%,12.16%,100.0%
+SRR5127439,Saccharomyces cerevisiae S288C,559292,5,15,2.75%,6.22%,99.81%
+SRR5127443,Blastocystis sp. subtype 2,944160,5,13,23.81%,6.79%,98.65%
+SRR5127452,Saccharomyces cerevisiae S288C,559292,12,20,6.59%,5.81%,99.47%
+SRR5127453,Saccharomyces cerevisiae S288C,559292,4,8,2.2%,3.93%,99.38%
+SRR5127454,Saccharomyces cerevisiae S288C,559292,3,4,1.65%,1.95%,100.0%
+SRR5127455,Blastocystis sp. subtype 2,944160,15,53,71.43%,12.61%,98.74%
+SRR5127456,Blastocystis sp. subtype 3,944168,13,49,59.09%,9.33%,99.6%
+SRR5127457,Blastocystis sp. ATCC 50177/Nand II,478820,13,51,65.0%,12.84%,99.44%
+SRR5127458,Saccharomyces cerevisiae S288C,559292,7,12,3.85%,9.28%,99.69%
+SRR5127459,Blastocystis sp. subtype 2,944160,16,62,76.19%,13.59%,98.96%
+SRR5127461,Debaryomyces hansenii CBS767,284592,4,8,2.19%,3.79%,100.0%
+SRR5127461,Candida sake,39397,3,5,1.67%,4.14%,99.26%
+SRR5127463,Blastocystis sp. subtype 2,944160,15,101,71.43%,23.45%,98.87%
+SRR5127466,Penicillium roqueforti FM164,1365484,5,9,2.51%,3.57%,100.0%
+SRR5127469,Malassezia restricta,76775,2,4,1.33%,1.53%,98.89%
+SRR5127470,Blastocystis sp. subtype 3,944168,11,63,50.0%,10.95%,99.62%
+SRR5127470,Saccharomyces cerevisiae S288C,559292,27,56,14.84%,5.83%,99.76%
+SRR5127471,Blastocystis sp. subtype 4,944170,6,17,60.0%,7.72%,99.55%
+SRR5127476,Blastocystis sp. subtype 2,944160,17,110,80.95%,22.57%,98.9%
+SRR5127478,Blastocystis sp. subtype 3,944168,19,193,86.36%,28.33%,99.46%
+SRR5127480,Blastocystis sp. subtype 3,944168,4,9,18.18%,5.04%,99.86%
+SRR5127489,Blastocystis sp. subtype 2,944160,2,6,9.52%,3.93%,97.22%
+SRR5127490,Saccharomyces cerevisiae S288C,559292,5,11,2.75%,5.39%,99.67%
+SRR5127492,Saccharomyces cerevisiae S288C,559292,5,9,2.75%,4.91%,99.81%
+SRR5127494,Blastocystis sp. subtype 2,944160,19,218,90.48%,37.42%,98.93%
+SRR5127495,Blastocystis sp. subtype 3,944168,4,8,18.18%,4.18%,99.61%
+SRR5127496,Blastocystis sp. subtype 4,944170,10,59,100.0%,19.27%,99.65%
+SRR5127499,Saccharomyces cerevisiae S288C,559292,8,15,4.4%,2.54%,99.5%
+SRR5127504,Blastocystis sp. subtype 2,944160,20,178,95.24%,27.6%,99.01%
+SRR5127505,Blastocystis sp. subtype 2,944160,7,21,33.33%,9.59%,99.17%
+SRR5127514,Blastocystis sp. subtype 3,944168,14,38,63.64%,8.13%,99.01%
+SRR5127514,Blastocystis sp. ATCC 50177/Nand II,478820,12,41,60.0%,10.46%,98.98%
+SRR5127515,Blastocystis sp. subtype 4,944170,8,44,80.0%,20.42%,99.97%
+SRR5127516,Blastocystis sp. subtype 3,944168,3,6,13.64%,3.35%,99.21%
+SRR5127519,Blastocystis sp. subtype 3,944168,9,42,40.91%,10.47%,99.78%
+SRR5127520,Saccharomyces cerevisiae S288C,559292,6,10,3.3%,9.51%,99.34%
+SRR5127522,Blastocystis sp. subtype 2,944160,20,142,95.24%,24.82%,98.84%
+SRR5127523,Blastocystis sp. subtype 3,944168,15,72,68.18%,13.31%,99.46%
+SRR5127524,Blastocystis sp. ATCC 50177/Nand II,478820,20,268,100.0%,38.03%,99.19%
+SRR5127525,Blastocystis sp. subtype 3,944168,16,101,72.73%,15.37%,99.39%
+SRR5127529,Blastocystis sp. subtype 3,944168,5,24,22.73%,11.23%,99.54%
+SRR5127534,Blastocystis sp. subtype 2,944160,15,52,71.43%,12.76%,98.89%
+SRR5127537,Blastocystis sp. subtype 3,944168,12,55,54.55%,10.53%,99.52%
+SRR5127539,Blastocystis sp. subtype 3,944168,3,7,13.64%,3.55%,100.0%
+SRR5127541,Blastocystis sp. subtype 2,944160,11,28,52.38%,8.67%,98.79%
+SRR5127543,Blastocystis sp. subtype 2,944160,2,6,9.52%,6.92%,100.0%
+SRR5127544,Giardia lamblia ATCC 50803,184922,4,12,20.0%,8.49%,99.22%
+SRR5127546,Blastocystis sp. subtype 4,944170,10,64,100.0%,22.32%,99.87%
+SRR5127548,Penicillium roqueforti FM164,1365484,10,17,5.03%,6.12%,100.0%
+SRR5127548,Saccharomyces cerevisiae S288C,559292,2,4,1.1%,6.17%,100.0%
+SRR5127551,Saccharomyces cerevisiae S288C,559292,2,5,1.1%,4.24%,100.0%
+SRR5127552,Saccharomyces cerevisiae S288C,559292,4,6,2.2%,3.51%,99.56%
+SRR5127556,Blastocystis sp. subtype 3,944168,3,9,13.64%,6.13%,99.83%
+SRR5127557,Blastocystis sp. subtype 2,944160,9,27,42.86%,7.61%,98.57%
+SRR5127563,Blastocystis sp. subtype 2,944160,11,47,52.38%,10.31%,98.73%
+SRR5127565,Blastocystis sp. subtype 2,944160,4,6,19.05%,8.25%,98.48%
+SRR5127566,Blastocystis sp. subtype 2,944160,8,13,38.1%,5.02%,98.68%
+SRR5127567,Blastocystis sp. ATCC 50177/Nand II,478820,20,170,100.0%,28.4%,99.12%
+SRR5127575,Blastocystis sp. subtype 4,944170,9,38,90.0%,12.83%,99.82%
+SRR5127576,Blastocystis sp. ATCC 50177/Nand II,478820,3,6,15.0%,2.87%,99.12%
+SRR5127579,Blastocystis sp. subtype 3,944168,4,11,18.18%,4.6%,99.21%
+SRR5127580,Blastocystis sp. subtype 2,944160,18,129,85.71%,24.67%,99.05%
+SRR5127581,Blastocystis sp. ATCC 50177/Nand II,478820,6,19,30.0%,6.21%,99.37%
+SRR5127585,Blastocystis sp. ATCC 50177/Nand II,478820,4,7,20.0%,5.9%,99.04%
+SRR5127587,Blastocystis sp. subtype 2,944160,20,164,95.24%,28.61%,98.88%
+SRR5127588,Blastocystis sp. subtype 3,944168,8,18,36.36%,7.16%,98.9%
+SRR5127589,Hanseniaspora uvarum,29833,3,7,2.61%,4.25%,100.0%
+SRR5127590,Blastocystis sp. subtype 3,944168,2,4,9.09%,7.35%,99.38%
+SRR5127597,Blastocystis sp. subtype 3,944168,6,15,27.27%,5.3%,99.49%
+SRR5127599,Saccharomyces cerevisiae S288C,559292,5,9,2.75%,4.9%,99.64%
+SRR5127600,Saccharomyces cerevisiae S288C,559292,16,31,8.79%,4.85%,99.63%
+SRR5127602,Blastocystis sp. subtype 2,944160,11,25,52.38%,7.27%,99.04%
+SRR5127603,Blastocystis sp. subtype 2,944160,7,16,33.33%,5.64%,99.1%
+SRR5127608,Blastocystis sp. subtype 3,944168,22,527,100.0%,53.74%,99.42%
+SRR5127613,Blastocystis sp. subtype 4,944170,10,98,100.0%,30.15%,99.85%
+SRR5127613,Saccharomyces cerevisiae S288C,559292,3,7,1.65%,4.47%,99.73%
+SRR5127618,Saccharomyces cerevisiae S288C,559292,4,9,2.2%,8.33%,99.85%
+SRR5127619,Blastocystis sp. ATCC 50177/Nand II,478820,10,28,50.0%,11.45%,99.43%
+SRR5127620,Blastocystis sp. ATCC 50177/Nand II,478820,11,30,55.0%,8.53%,99.13%
+SRR5127621,Blastocystis sp. subtype 4,944170,7,41,70.0%,16.44%,99.96%
+SRR5127622,Blastocystis sp. ATCC 50177/Nand II,478820,5,11,25.0%,5.48%,99.68%
+SRR5127627,Blastocystis sp. subtype 3,944168,10,32,45.45%,8.72%,99.68%
+SRR5127627,Penicillium roqueforti FM164,1365484,4,7,2.01%,7.7%,99.84%
+SRR5127628,Blastocystis sp. subtype 4,944170,2,4,20.0%,4.64%,99.52%
+SRR5127629,Saccharomyces cerevisiae S288C,559292,6,9,3.3%,8.25%,99.72%
+SRR5127630,Blastocystis sp. subtype 2,944160,21,282,100.0%,35.11%,99.02%
+SRR5127633,Blastocystis sp. subtype 3,944168,19,153,86.36%,23.98%,99.54%
+SRR5127634,Debaryomyces hansenii CBS767,284592,2,4,1.09%,2.74%,100.0%
+SRR5127634,Penicillium roqueforti FM164,1365484,2,4,1.01%,7.12%,100.0%
+SRR5127636,Blastocystis sp. ATCC 50177/Nand II,478820,20,503,100.0%,56.98%,99.0%
+SRR5127637,Blastocystis sp. subtype 2,944160,6,16,28.57%,9.15%,98.95%
+SRR5127642,Blastocystis sp. subtype 3,944168,14,70,63.64%,12.59%,99.51%
+SRR5127643,Blastocystis sp. ATCC 50177/Nand II,478820,5,12,25.0%,5.78%,99.78%
+SRR5127643,Saccharomyces cerevisiae S288C,559292,26,52,14.29%,5.43%,99.53%
+SRR5127648,Blastocystis sp. ATCC 50177/Nand II,478820,6,12,30.0%,4.1%,99.0%
+SRR5127649,Saccharomyces cerevisiae S288C,559292,2,4,1.1%,13.2%,100.0%
+SRR5127651,Saccharomyces cerevisiae S288C,559292,51,121,28.02%,7.5%,99.7%
+SRR5127655,Blastocystis sp. subtype 2,944160,16,56,76.19%,11.16%,98.89%
+SRR5127657,Saccharomyces cerevisiae S288C,559292,3,5,1.65%,9.75%,100.0%
+SRR5127667,Blastocystis sp. subtype 4,944170,8,125,80.0%,40.82%,99.73%
+SRR5127667,Penicillium roqueforti FM164,1365484,4,7,2.01%,8.95%,100.0%
+SRR5127672,Pichia kudriavzevii,4909,11,36,6.96%,6.85%,99.85%
+SRR5127679,Blastocystis sp. subtype 2,944160,14,71,66.67%,14.98%,99.17%
+SRR5127681,Blastocystis sp. subtype 3,944168,2,4,9.09%,5.85%,98.76%
+SRR5127685,Blastocystis sp. subtype 2,944160,10,19,47.62%,5.25%,98.93%
+SRR5127688,Blastocystis sp. subtype 3,944168,20,210,90.91%,29.74%,99.37%
+SRR5127691,Saccharomyces cerevisiae S288C,559292,4,7,2.2%,8.0%,99.8%
+SRR5127698,Saccharomyces cerevisiae S288C,559292,2,4,1.1%,5.75%,100.0%
+SRR5127707,Blastocystis sp. subtype 2,944160,17,62,80.95%,13.92%,99.01%
+SRR5127709,Blastocystis sp. subtype 4,944170,9,46,90.0%,19.06%,99.84%
+SRR5127710,Blastocystis sp. ATCC 50177/Nand II,478820,12,36,60.0%,10.2%,99.35%
+SRR5127712,Blastocystis sp. ATCC 50177/Nand II,478820,4,10,20.0%,7.1%,99.68%
+SRR5127715,Blastocystis sp. subtype 2,944160,18,115,85.71%,22.74%,99.0%
+SRR5127717,Blastocystis sp. subtype 3,944168,20,212,90.91%,32.46%,99.46%
+SRR5127719,Blastocystis sp. subtype 4,944170,7,23,70.0%,9.65%,99.85%
+SRR5127722,Blastocystis sp. subtype 2,944160,4,10,19.05%,6.72%,99.73%
+SRR5127724,Blastocystis sp. subtype 2,944160,7,13,33.33%,7.02%,98.85%
+SRR5127728,Saccharomyces cerevisiae S288C,559292,18,43,9.89%,6.15%,99.73%
+SRR5127731,Blastocystis sp. ATCC 50177/Nand II,478820,6,13,30.0%,5.16%,99.38%
+SRR5127731,Saccharomyces cerevisiae S288C,559292,3,5,1.65%,3.05%,99.61%
+SRR5127736,Malassezia restricta,76775,2,4,1.33%,4.59%,99.45%
+SRR5127737,Blastocystis sp. subtype 3,944168,22,290,100.0%,36.11%,99.32%
+SRR5127738,Blastocystis sp. ATCC 50177/Nand II,478820,8,24,40.0%,7.01%,98.57%
+SRR5127739,Saccharomyces cerevisiae S288C,559292,32,82,17.58%,6.13%,99.7%
+SRR5127744,Debaryomyces hansenii CBS767,284592,9,20,4.92%,5.69%,99.79%
+SRR5127751,Penicillium roqueforti FM164,1365484,5,10,2.51%,6.81%,100.0%
+SRR5127752,Blastocystis sp. subtype 3,944168,2,4,9.09%,3.03%,99.46%
+SRR5127754,Blastocystis sp. subtype 3,944168,21,163,95.45%,24.69%,99.41%
+SRR5127754,Blastocystis sp. ATCC 50177/Nand II,478820,11,43,55.0%,11.69%,99.03%
+SRR5127754,Saccharomyces cerevisiae S288C,559292,5,10,2.75%,4.28%,100.0%
+SRR5127756,Blastocystis sp. subtype 3,944168,18,140,81.82%,22.98%,99.5%
+SRR5127764,Blastocystis sp. subtype 2,944160,8,28,38.1%,9.16%,98.18%
+SRR5127769,Blastocystis sp. subtype 3,944168,4,7,18.18%,4.31%,99.65%
+SRR5127770,Blastocystis sp. subtype 2,944160,18,84,85.71%,16.68%,98.88%
+SRR5127772,Blastocystis sp. subtype 2,944160,16,108,76.19%,21.8%,99.02%
+SRR5127773,Blastocystis sp. subtype 2,944160,21,361,100.0%,47.78%,98.75%
+SRR5127774,Blastocystis sp. ATCC 50177/Nand II,478820,17,57,85.0%,13.33%,99.27%
+SRR5127776,Blastocystis sp. subtype 3,944168,3,6,13.64%,3.07%,99.68%
+SRR5127778,Cyberlindnera jadinii NRRL Y-1542,983966,3,6,1.73%,4.02%,99.25%
+SRR5127780,Blastocystis sp. subtype 2,944160,6,23,28.57%,8.35%,99.5%
+SRR5127782,Blastocystis sp. ATCC 50177/Nand II,478820,15,140,75.0%,25.93%,99.32%
+SRR5127783,Blastocystis sp. subtype 3,944168,22,369,100.0%,43.53%,99.37%
+SRR5127783,Giardia lamblia ATCC 50803,184922,9,29,45.0%,11.72%,98.97%
+SRR5127788,Saccharomyces cerevisiae S288C,559292,3,6,1.65%,3.51%,100.0%
+SRR5127791,Blastocystis sp. subtype 3,944168,19,201,86.36%,27.46%,99.43%
+SRR5127791,Saccharomyces cerevisiae S288C,559292,2,4,1.1%,9.2%,99.32%
+SRR5127793,Blastocystis sp. subtype 4,944170,8,34,80.0%,11.72%,99.79%
+SRR5127793,Saccharomyces cerevisiae S288C,559292,2,4,1.1%,3.21%,100.0%
+SRR5127796,Blastocystis sp. subtype 3,944168,17,173,77.27%,24.7%,99.24%
+SRR5127798,Blastocystis sp. subtype 2,944160,11,38,52.38%,11.25%,99.22%
+SRR5127801,Blastocystis sp. subtype 2,944160,6,13,28.57%,6.92%,98.89%
+SRR5127803,Blastocystis sp. subtype 3,944168,4,8,18.18%,7.06%,99.11%
+SRR5127806,Blastocystis sp. ATCC 50177/Nand II,478820,5,10,25.0%,3.34%,99.42%
+SRR5127810,Blastocystis sp. subtype 4,944170,5,11,50.0%,6.58%,100.0%
+SRR5127810,Saccharomyces cerevisiae S288C,559292,11,22,6.04%,4.07%,99.87%
+SRR5127814,Blastocystis sp. subtype 4,944170,2,5,20.0%,5.15%,100.0%
+SRR5127815,Blastocystis sp. subtype 2,944160,9,24,42.86%,8.07%,98.49%
+SRR5127815,Debaryomyces hansenii CBS767,284592,9,22,4.92%,5.37%,99.8%
+SRR5127816,Blastocystis sp. subtype 3,944168,2,4,9.09%,2.7%,100.0%
+SRR5127819,Blastocystis sp. subtype 2,944160,5,9,23.81%,7.08%,98.83%
+SRR5127821,Cyberlindnera jadinii NRRL Y-1542,983966,12,21,6.94%,5.3%,99.25%
+SRR5127821,Saccharomyces cerevisiae S288C,559292,11,22,6.04%,4.33%,99.54%
+SRR5127823,Blastocystis sp. subtype 3,944168,21,233,95.45%,32.19%,99.55%
+SRR5127823,Pichia membranifaciens NRRL Y-2026,763406,2,4,1.2%,21.17%,99.59%
+SRR5127823,Saccharomyces cerevisiae S288C,559292,2,4,1.1%,1.71%,99.4%
+SRR5127825,Saccharomyces cerevisiae S288C,559292,3,6,1.65%,1.57%,99.62%
+SRR5127828,Blastocystis sp. ATCC 50177/Nand II,478820,12,44,60.0%,11.3%,99.47%
+SRR5127829,Saccharomyces cerevisiae S288C,559292,5,10,2.75%,2.74%,99.65%
+SRR5127831,Blastocystis sp. subtype 2,944160,13,56,61.9%,12.77%,99.03%
+SRR5127832,Saccharomyces cerevisiae S288C,559292,4,7,2.2%,4.76%,99.81%
+SRR5127834,Pichia fermentans,53655,3,6,2.04%,3.38%,99.54%
+SRR5127841,Blastocystis sp. subtype 3,944168,20,166,90.91%,21.25%,99.43%
+SRR5127841,Saccharomyces cerevisiae S288C,559292,5,9,2.75%,3.01%,99.79%
+SRR5127842,Blastocystis sp. subtype 2,944160,16,61,76.19%,13.84%,99.06%
+SRR5127844,Blastocystis sp. ATCC 50177/Nand II,478820,18,124,90.0%,22.92%,99.32%
+SRR5127845,Blastocystis sp. subtype 3,944168,6,11,27.27%,4.9%,99.14%
+SRR5127847,Blastocystis sp. subtype 3,944168,20,390,90.91%,47.24%,99.45%
+SRR5127847,Saccharomyces cerevisiae S288C,559292,8,19,4.4%,6.42%,99.93%
+SRR5127848,Blastocystis sp. subtype 3,944168,4,13,18.18%,6.66%,99.2%
+SRR5127848,Blastocystis sp. ATCC 50177/Nand II,478820,3,10,15.0%,6.59%,99.28%
+SRR5127850,Blastocystis sp. subtype 4,944170,10,134,100.0%,40.8%,99.71%
+SRR5127854,Blastocystis sp. subtype 2,944160,11,30,52.38%,8.88%,99.22%
+SRR5127854,Saccharomyces cerevisiae S288C,559292,3,5,1.65%,7.64%,100.0%
+SRR5127855,Blastocystis sp. subtype 2,944160,11,44,52.38%,10.22%,99.1%
+SRR5127857,Blastocystis sp. subtype 3,944168,22,269,100.0%,33.57%,99.46%
+SRR5127858,Blastocystis sp. subtype 2,944160,21,317,100.0%,37.38%,98.91%
+SRR5127860,Saccharomyces cerevisiae S288C,559292,20,45,10.99%,6.84%,99.67%
