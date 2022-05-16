@@ -62,7 +62,7 @@ The workflow is run in the following order:
 [**1. Bioinformatic_pipeline**](https://github.com/ginaguzzo/2021_gut_eukaryotes_in_IBD/tree/main/Bioinformatic_pipeline)
    - Shell commands for quality control, detecting eukaryotes in samples, and formatting output for R.
 
-**2. R_analysis**
+[**2. R_analysis**](https://github.com/ginaguzzo/2021_gut_eukaryotes_in_IBD/tree/main/R_analysis)
    - R code for results exploration and generating figures and tables.
 
 ## Setting up
