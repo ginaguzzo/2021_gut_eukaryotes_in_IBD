@@ -3,14 +3,31 @@
 ## Overview
 This repository includes the code and output for detecting eukaryotes in gut microbiomes of individuals with (and without) inflammatory bowel disease (IBD). 
 
-The analysis is split into two sub-analyses of three shotgun metagenomic datasets and their respective metadata:
+The analysis is split into two sub-analyses of three shotgun metagenomic datasets:
 
 **1.	Cohort meta-analysis**
-   -	Individuals with IBD from the 1000IBD cohort ([Imhann et al. 2019](https://bmcgastroenterol.biomedcentral.com/articles/10.1186/s12876-018-0917-5)) available [here](https://ega-archive.org/datasets/EGAD00001004194). *NOTE: the dataset is available per request following contact with the Data Access Committee.*
-   -	Healthy individuals from the 500FG cohort ([Schirmer et al. 2019](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5131922/)) available [here](https://www.ebi.ac.uk/ena/browser/view/PRJNA319574).
+   -	Individuals with IBD from the 1000IBD cohort ([Imhann et al. 2019](https://bmcgastroenterol.biomedcentral.com/articles/10.1186/s12876-018-0917-5)).
+   -	Healthy individuals from the 500FG cohort ([Schirmer et al. 2019](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5131922/)).
  
 **2.	Faecal microbiota transplant (FMT) analysis**
-   - FMT recipients and FMT donors from ([Kong et al. 2020](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7725862/)) available [here](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA625520/).
+   - FMT recipients and FMT donors from [Kong et al. 2020](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7725862/).
+
+## Downloading files
+
+#### Metagenomic samples
+- 1000IBD samples can be found [here](https://ega-archive.org/datasets/EGAD00001004194), and are accessible subject to approval by the Data Access Committee.
+- 500FG samples can be downloaded [here](https://www.ebi.ac.uk/ena/browser/view/PRJNA319574).
+- FMT study samples can be downloaded [here](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA625520/).
+
+#### Sample metadata
+Due to ethical requirements, all participant-associated metadata files have been removed from this repository. For reproducibility, example metadata files can be found in 
+```
+R_analysis/metadata_files
+```
+
+
+These contain headers and mock samples of how the metadata were formatted.
+
 
 ## Dependencies
 
@@ -34,6 +51,7 @@ The analysis is split into two sub-analyses of three shotgun metagenomic dataset
 - pscl (v1.5.5)
 - sandwich (v3.0-1)
 - lmtest (v0.9-39)
+- ggh4x (v0.2.1)
 
 
 ## Workflow
@@ -105,14 +123,4 @@ cp eukdetect_config_files/*yml tools/EukDetect-master
 2. The scripts are located in `R_analysis` and should be run in the order they are numbered.
 
 
-
-*NOTE:* Due to ethical requirements, all participant-associated metadata files have been removed. 
-
-For reproducibility, example metadata files can be found in 
-```
-R_analysis/metadata_files
-```
-
-
-These contain headers and mock samples of how the metadata was formatted.
 
