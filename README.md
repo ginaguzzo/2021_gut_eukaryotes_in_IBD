@@ -45,7 +45,8 @@ These contain headers and mock samples of how the metadata were formatted.
 -	RiboTagger (v0.8.0)
 
 #### R packages
-- R version >=4.0.2
+- R version >= v4.0.2
+- tidyverse >= v1.3.0
 - phyloseq (v1.38.0)
 - gridExtra (v2.3)
 - patchwork (v1.1.1)
