@@ -20,7 +20,9 @@ The analysis is split into two sub-analyses of three shotgun metagenomic dataset
 - FMT study samples can be downloaded [here](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA625520/).
 
 #### Sample metadata
-Due to ethical requirements, all participant-associated metadata files have been removed from this repository. For reproducibility, example metadata files can be found in 
+Due to ethical requirements, all participant-associated metadata files have been removed from this repository. See [here](https://github.com/ginaguzzo/2021_gut_eukaryotes_in_IBD/blob/main/Downloading_metadata.txt) for more info on how they were downloaded. 
+
+For reproducibility, example metadata files can be found in 
 ```
 R_analysis/metadata_files
 ```
