@@ -12,7 +12,7 @@ setwd("R_analysis/")
 # 2. After rarefying ------------------------------------------------------
 
 # Import hits table
-df_euks <- read.csv(file = "figures_and_tables/Table_S3_eukdetect_results_rarefied.csv", sep = ",")
+df_euks <- read.csv(file = "results/eukdetect_results_rarefied.csv", sep = ",")
 
 # Remove extra columns
 df_euks <- df_euks %>%

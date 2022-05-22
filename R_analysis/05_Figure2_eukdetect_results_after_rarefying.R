@@ -8,7 +8,7 @@ library(ggplot2)
 
 setwd("R_analysis/")
 
-# Make Table S3 ----------------------------------------------------------
+# Make table of results ----------------------------------------------------------
 
 ## Import tables and combine
 df.1000ibd <- read_tsv(file = "results/1000ibd_eukdetect_all_hits_rarefied.txt")
@@ -26,15 +26,15 @@ euks_df <- euks_df %>%
   mutate(Name = replace(Name, Name == "[Candida] glabrata", "Candida glabrata"))
 
 ## Change column names
-tables3 <- euks_df %>%
+table <- euks_df %>%
   rename("Taxa_ID" = "Taxid") %>%
   rename("Taxa" = "Name")
 
 ## Save
-write.table(tables3, file = "figures_and_tables/Table_S3_eukdetect_results_rarefied.csv", 
+write.table(table, file = "results/eukdetect_results_rarefied.csv", 
             sep=",", quote = FALSE, col.names=TRUE, row.names=FALSE)
 
-# 1. Data wrangling ----------------------------------------------------------
+
 
 ## Change column names
 euks_df <- euks_df %>%

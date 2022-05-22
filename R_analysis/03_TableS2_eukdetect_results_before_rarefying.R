@@ -27,8 +27,9 @@ euks_df <- euks_df %>%
 
 ## Change column names
 tables2 <- euks_df %>%
-  rename("Taxa_ID" = "Taxid") %>%
-  rename("Taxa" = "Name")
+  rename("Sample_ID" = sampleid,
+  "Taxa_ID" = Taxid,
+  "Taxa" = Name)
 
 
 

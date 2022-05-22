@@ -16,13 +16,15 @@ euks_df <- read_tsv(file = "results/fmt_eukdetect_all_hits_unrarefied.txt")
 
 
 ## Change column names
-tables5 <- euks_df %>%
-  rename("Taxa_ID" = "Taxid") %>%
-  rename("Taxa" = "Name")
+tables4 <- euks_df %>%
+  rename("Sample_ID" = sampleid,
+         "Taxa_ID" = Taxid,
+         "Taxa" = Name)
+
 
 
 ## Save
-write.table(tables5, file = "figures_and_tables/Table_S5_eukdetect_fmt_data_results_unrarefied.csv", 
+write.table(tables4, file = "figures_and_tables/Table_S4_eukdetect_fmt_data_results_unrarefied.csv", 
             sep=",", quote = FALSE, col.names=TRUE, row.names=FALSE)
 
 ## Format table
