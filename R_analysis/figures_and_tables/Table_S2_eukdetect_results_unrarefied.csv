@@ -1,4 +1,4 @@
-sampleid,Taxa,Taxa_ID,Observed_markers,Read_counts,Percent_observed_markers,Total_marker_coverage,Percent_identity
+Sample_ID,Taxa,Taxa_ID,Observed_markers,Read_counts,Percent_observed_markers,Total_marker_coverage,Percent_identity
 1000IBD00010,Saccharomyces cerevisiae S288C,559292,55,145,30.22%,7.88%,99.57%
 1000IBD00014,Candida albicans SC5314,237561,11,26,6.55%,9.66%,100.0%
 1000IBD00016,Saccharomyces cerevisiae S288C,559292,11,19,6.04%,8.64%,99.8%

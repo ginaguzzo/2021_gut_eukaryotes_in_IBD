@@ -1,4 +1,4 @@
-sampleid,Taxa,Taxa_ID,Observed_markers,Read_counts,Percent_observed_markers,Total_marker_coverage,Percent_identity
+Sample_ID,Taxa,Taxa_ID,Observed_markers,Read_counts,Percent_observed_markers,Total_marker_coverage,Percent_identity
 SRR11599159,Pichia fermentans,53655,3,5,2.04%,8.77%,99.53%
 SRR11599159,Candida tropicalis MYA-3404,294747,2,4,1.17%,6.34%,99.2%
 SRR11599155,Saccharomyces cerevisiae S288C,559292,68,95,37.36%,7.76%,99.55%
