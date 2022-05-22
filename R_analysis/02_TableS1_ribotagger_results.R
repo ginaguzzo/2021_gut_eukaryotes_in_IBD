@@ -26,9 +26,35 @@ df.ctl$disease <- 'control'
 ncol(df.ctl)
 df.ctl <- df.ctl[c(1, 19, 2:18)]
 
-# Combine results and save file
+## Combine results and save file
 df.total <- bind_rows(df.ibd, df.ctl)
-write.table(df.total, file = "figures_and_tables/Table_S1_ribotagger_results.csv", 
+
+## Remove rows with plant IDs
+df.total <- filter(df.total, c != "Embryophyta")
+
+## Rename columns
+tables1 <- df.total %>%
+  rename("Sample ID" = sampleid, 
+         "Disease status" = disease,
+         "Confidence" = confidence,
+         "Kingdom" = k,
+         "Phylum" = p,
+         "Class" = c,
+         "Order" = o,
+         "Family" = f,
+         "Genus" = g,
+         "18S V region" = v_region)
+
+## Sub-select table
+tables1 <- tables1 %>% 
+  select(-c(tag, use, taxon_level, taxon_data, 
+         long, long_total, long_this, support, s))
+
+## Round decimal places in Confidence column
+tables1$Confidence <- format(round(tables1$Confidence, 2), nsmall = 2)
+
+
+write.table(tables1, file = "figures_and_tables/Table_S1_ribotagger_results.csv", 
             sep=",", quote = FALSE, col.names=TRUE, row.names=FALSE)
 
 
