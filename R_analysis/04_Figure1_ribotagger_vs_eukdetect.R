@@ -14,13 +14,16 @@ setwd("R_analysis/")
 # Import ribotagger and eukdetect tables of hits
 # RiboTagger results
 df.ribo <- read.csv(file = "figures_and_tables/Table_S1_ribotagger_results.csv", sep = ",")
-df.ribo <- unique(df.ribo[c("sampleid", "g", "disease")]) 
-df.ribo <- df.ribo[!(df.ribo$g=="Sinapis"),] #Remove samples with plant taxa, Sinapis
-df.ribo <- df.ribo[!(df.ribo$g==""),] #Only keep samples with genus-level taxa identified
+df.ribo <- df.ribo %>%
+  rename("sampleid" = Sample.ID,
+         "Disease" = Disease.status)
+df.ribo <- unique(df.ribo[c("sampleid", "Genus", "Disease")]) 
+df.ribo <- df.ribo[!(df.ribo$Genus=="Sinapis"),] #Remove samples with plant taxa, Sinapis
+df.ribo <- df.ribo[!(df.ribo$Genus==""),] #Only keep samples with genus-level taxa identified
 df.ribo <- df.ribo %>% 
-  group_by(g, disease) %>%
+  group_by(Genus, Disease) %>%
   summarize(n())
-names(df.ribo)[1:3] <- c("Genus", "Disease", "Ribotagger")
+names(df.ribo)[3] <- c("Ribotagger")
 
 
 # EukDetect results
