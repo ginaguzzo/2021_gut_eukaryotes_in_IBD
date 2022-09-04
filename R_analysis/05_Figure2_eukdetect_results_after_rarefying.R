@@ -58,6 +58,16 @@ df$ibd_subtype[df$disease == "control"] <- "Control"
 
 # 1.1 Exploring results ---------------------------------------------------
 
+## Identify all strain names
+unique(df$Strain)
+
+##Replace Blastocystis subtype 1 strain name
+df <- df %>% 
+  mutate(Strain = replace(Strain, Strain == "Blastocystis sp. ATCC 50177/Nand II", "Blastocystis sp. subtype 1"))
+
+## Add strain IDs to species names
+df$Species <- ifelse(df$Strain == "", df$Species, df$Strain)
+
 ## IBD samples ##
 df.ibd <- df[(df$disease=="IBD"),] #Make new df for IBD patients only
 df.ibd1 <- unique(df.ibd[c("sampleid", "Species", "ibd_subtype", "Genus")]) #Make new df of samples with unique results at the species level
@@ -119,17 +129,17 @@ df$Species <- factor(df$Species, order = TRUE,
                                        "Blastocystis sp. subtype 2",
                                        "Blastocystis sp. subtype 3",
                                        "Blastocystis sp. subtype 4",
-                                       "Candida albicans",
+                                       "Candida albicans SC5314",
                                        "Candida glabrata",
                                        "Candida sake",
-                                       "Clavispora lusitaniae",
+                                       "Clavispora lusitaniae ATCC 42720",
                                        "Cyberlindnera jadinii NRRL Y-1542",
-                                       "Debaryomyces hansenii",
+                                       "Debaryomyces hansenii CBS767",
                                        "Malassezia restricta",
-                                       "Penicillium roqueforti",
+                                       "Penicillium roqueforti FM164",
                                        "Pichia kudriavzevii",
-                                       "Saccharomyces cerevisiae",
-                                       "Wickerhamomyces anomalus"))
+                                       "Saccharomyces cerevisiae S288C",
+                                       "Wickerhamomyces anomalus NRRL Y-366-8"))
 
 # Order by disease status
 df$ibd_subtype <- factor(df$ibd_subtype, order = TRUE, 
@@ -152,17 +162,17 @@ my_y_titles <- rev(c(
   expression(paste(italic("Blastocystis"), ~"sp. subtype 2")),
   expression(paste(italic("Blastocystis"), ~"sp. subtype 3")),
   expression(paste(italic("Blastocystis"), ~"sp. subtype 4")),
-  expression(paste(italic("Candida albicans"))),
+  expression(paste(italic("Candida albicans"), ~"SC5314")),
   expression(paste(italic("Candida glabrata"))),
   expression(paste(italic("Candida sake"))),
-  expression(paste(italic("Clavispora lusitaniae"))),
+  expression(paste(italic("Clavispora lusitaniae"), ~"ATCC 42720")),
   expression(paste(italic("Cyberlindnera jadinii"), ~"NRRL Y-1542")),
-  expression(paste(italic("Debaryomyces hansenii"))),
+  expression(paste(italic("Debaryomyces hansenii"), ~"CBS767")),
   expression(paste(italic("Malassezia restricta"))),
-  expression(paste(italic("Penicillium roqueforti"))),
+  expression(paste(italic("Penicillium roqueforti"), ~"FM164")),
   expression(paste(italic("Pichia kudriavzevii"))),
-  expression(paste(italic("Saccharomyces cerevisiae"))),
-  expression(paste(italic("Wickerhamomyces anomalus")))
+  expression(paste(italic("Saccharomyces cerevisiae"), ~"S288C")),
+  expression(paste(italic("Wickerhamomyces anomalus"), ~"NRRL Y-366-8"))
 ))
 
 # Add subtitles for facet grid labels
@@ -416,6 +426,6 @@ patchwork <- patchwork + plot_layout(heights = c(1.75, 2.75))
 patchwork
 
 ggsave(patchwork, filename = "figures_and_tables/Figure_2_eukdetect_results_rarefied_draft.tiff",
-       height = 15, width = 15, dpi = 300, units = "in", device='tiff')
+       height = 15, width = 15, dpi = 300, units = "in", device=tiff)
 
 ## Fig 2D Venn Diagram and lines connecting 2A to 2B were added in Adobe Illustrator.
