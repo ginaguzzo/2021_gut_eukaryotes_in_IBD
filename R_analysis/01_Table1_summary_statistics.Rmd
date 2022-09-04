@@ -1,11 +1,10 @@
 ---
 title: "Table 1. Summary characteristics of the study groups."
 output:
-  word_document: default
   html_document:
     df_print: paged
+  word_document: default
   pdf_document: default
-
 ---
 
 ```{r, include = FALSE}
@@ -28,6 +27,10 @@ metadata %>%
   group_by(diagnosis_last_record=="CD", Montreal_L) %>%
   summarise(n()) #Type of CD in cohort
 
+metadata$age_range <- ifelse(metadata$age < 41, "18-40",
+                             ifelse(metadata$age > 40 & metadata$age < 61, "41-60", 
+                                    ifelse(metadata$age > 60 & metadata$age < 81, "61-80", 
+                                           ifelse(metadata$age > 80, "81+", NA))))
 
 table_summary <-
   list("Sex" =
@@ -35,24 +38,24 @@ table_summary <-
               "Male"      = ~ n_perc(sex=="Male"),
               "Unspecified" = ~ n_perc(sex=="")),
        "Age (years)" =
-         list("Median (IQR)" = ~ median_iqr(age, na_rm=T, show_n = "never")),
+         list("Median (IQR)" = ~ median_iqr(age, na_rm=T, show_n = "never"),
+              "18-40" = ~ n_perc(age_range=="18-40", na_rm=T, show_denom = "never"),
+              "41-60" = ~ n_perc(age_range=="41-60", na_rm=T, show_denom = "never"),
+              "61-80" = ~ n_perc(age_range=="61-80", na_rm=T, show_denom = "never"),
+              "81+" = ~ n_perc(age_range=="81+", na_rm=T, show_denom = "never"),
+              "Missing" = ~sum(is.na(age_range))),
        "BMI" =
          list("Median (IQR)" = ~ median_iqr(bmi, na_rm=T, show_n = "never"),
               "Missing" = ~sum(is.na(bmi))),
+              "Smoking status" =
+         list("Current" = ~n_perc(smoking_status=="current", na_rm=T, show_denom = "never"),
+              "Past"  = ~n_perc(smoking_status=="past", na_rm=T, show_denom = "never"),
+              "Never" = ~n_perc(smoking_status=="never", na_rm=T, show_denom = "never"),
+              "Missing" = ~sum(is.na(smoking_status))),
        "Diagnosis" =
          list("CD"       = ~ n_perc(diagnosis_last_record=="CD", show_denom = "never"),
               "UC"       = ~ n_perc(diagnosis_last_record=="UC", show_denom = "never"),
-              "IBDU" = ~ n_perc(diagnosis_last_record=="IBDU", show_denom = "never")),
-       "Time since diagnosis (years)" =
-         list("Median (IQR)" = ~ median_iqr(duration_of_disease, na_rm=T, show_n = "never"),
-              "Missing" = ~sum(is.na(duration_of_disease))),
-       "Age at onset (years)" =
-         list("Median (IQR)" = ~ median_iqr(age_at_onset, na_rm=T, show_n = "never"),
-              "Missing" = ~sum(is.na(age_at_onset))),
-       "Smoking status" =
-         list("Yes" = ~n_perc(smoking_now==1, na_rm=T, show_denom = "never"),
-              "No"  = ~n_perc(smoking_now==0, na_rm=T, show_denom = "never"),
-              "Missing" = ~sum(is.na(smoking_now)))
+              "IBDU" = ~ n_perc(diagnosis_last_record=="IBDU", show_denom = "never"))
   )
 
 whole <- summary_table(metadata, table_summary)

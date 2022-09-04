@@ -12,7 +12,12 @@ setwd("R_analysis/")
 # Creating physeq table that includes all samples with 0 hits, as input for regression analysis
 
 # Identify samples with 0 hits
-hits <- read.csv(file = "figures_and_tables/Table_S3_eukdetect_results_rarefied.csv")
+hits <- read.csv(file = "results/eukdetect_results_rarefied.csv")
+hits <- hits %>%
+  dplyr::rename(taxid = Taxa_ID,
+         read_count = Read_counts) %>%
+  dplyr::select(sampleid, taxid, read_count)
+
 all_samples <- read.csv(file = "metadata_files/cohort_metadata_combined.csv")
 no_hits <- anti_join(all_samples, hits, by = "sampleid")
 
@@ -88,8 +93,7 @@ physeq <- within(physeq, {
   disease <- factor(disease)
   ibd_subtype <- factor(ibd_subtype)
   sex <- factor(sex)
-  smoking_now <- factor(smoking_now)
-  smoking_past <- factor(smoking_past)
+  smoking_status <- factor(smoking_status, levels = c("never", "past", "current"))
   bmi_class <- factor(bmi_class, levels = c("Normal", "Underweight", "Overweight", "Obese"))
 })
 summary(physeq)
@@ -114,12 +118,12 @@ library(MASS)
 
 # IBD vs no IBD - negative binomial regressions
 # Saccharomyces
-sacc.y <- formula(Abundance ~  disease + sex + age + bmi_class + smoking_now + smoking_past)
+sacc.y <- formula(Abundance ~  disease + sex + age + bmi_class + smoking_status)
 sacc.zb <- zeroinfl(sacc.y, data = sacc, dist = "negbin")
 summary(sacc.zb)
 
 # Blastocystis
-blasto.y <- formula(Abundance ~  disease + sex + age + bmi_class + smoking_now + smoking_past)
+blasto.y <- formula(Abundance ~  disease + sex + age + bmi_class + smoking_status)
 blasto.zb <- zeroinfl(blasto.y, data = blasto, dist = "negbin")
 summary(blasto.zb)
 
