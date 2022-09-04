@@ -109,8 +109,8 @@ df.bin$new_sampleid <- ifelse(df.bin$donor_patient=="donor", sub( "^","D", df.bi
 
 
 df.bin$new_sampleid <- factor(df.bin$new_sampleid, order = TRUE, 
-                              levels = c("P1", "P4", "P15", "P21", "P9", "P17",
-                                         "P8", "P18", "P2", "P10", "P14", "P20",
+                              levels = c("P1", "P4", "P9", "P15", "P21", "P17",
+                                         "P2", "P8", "P18", "P10", "P14", "P20",
                                          "D47")) #Reorder by clustering FMT vs placebo and success vs failure
 
 
@@ -134,9 +134,9 @@ df.bin$facet_status[df.bin$facet_status=="FMT"] <- "Active FMT group"
 df.bin$facet_status[df.bin$facet_status=="SHAM"] <- "Sham FMT group"
 
 # FMT outcome
-df.bin$facet_outcome <- df.bin$Outcome
-df.bin$facet_outcome <- ifelse(df.bin$facet_outcome %in% c('success_FMT','success_SHAM'), 'Success',
-                               ifelse(df.bin$facet_outcome %in% c('Failure_FMT','failure_SHAM'), 'Failure', ''))
+df.bin$facet_outcome <- df.bin$remission_W10
+df.bin$facet_outcome <- ifelse(df.bin$facet_outcome == 'yes', 'Success',
+                               ifelse(df.bin$facet_outcome == 'no', 'Failure', ''))
 df.bin$facet_outcome[df.bin$FMT_SHAM=="donor"] <- ""
 
 # Reorder levels based on outcome
@@ -147,29 +147,41 @@ df.bin$facet_status <- factor(df.bin$facet_status, order = TRUE,
                               levels = c("Active FMT group", "Sham FMT group", ""))
 
 
+## Explore strain IDs
+unique(df.bin$Strain)
+
+# Fix Blastocystis subtype 1 ID
+df.bin <- df.bin %>% 
+  mutate(Strain = replace(Strain, Strain == "Blastocystis sp. ATCC 50177/Nand II", "Blastocystis sp. subtype 1"))
+
+# Add strain IDs to species names
+df.bin$Species <- ifelse(df.bin$Strain == "", df.bin$Species, df.bin$Strain)
+
+
+
 # Custom y labels
-colSums(table(df.bin %>% 
-                group_by(Abundance, Species) %>%
-                summarize(n()))) #Calculate number of samples in each group
+df.bin %>% 
+  group_by(Species) %>% 
+  summarise(n()) #List species
 
 my_y_titles <- rev(c(
   expression(paste(italic("Blastocystis"), ~"sp. subtype 1")),
   expression(paste(italic("Blastocystis"), ~"sp. subtype 2")),
   expression(paste(italic("Blastocystis"), ~"sp. subtype 4")),
-  expression(paste(italic("Candida albicans"))),
-  expression(paste(italic("Candida tropicalis"))),
-  expression(paste(italic("Clavispora lusitaniae"))),
-  expression(paste(italic("Debaryomyces hansenii"))),
+  expression(paste(italic("Candida albicans"), ~"SC5314")),
+  expression(paste(italic("Candida tropicalis"), ~"MYA-3404")),
+  expression(paste(italic("Clavispora lusitaniae"), ~"ATCC 42720")),
+  expression(paste(italic("Debaryomyces hansenii"), ~"CBS767")),
   expression(paste(italic("Diutina catenulata"))),
   expression(paste(italic("Kluyveromyces lactis"))),
-  expression(paste(italic("Kluyveromyces marxianus"))),
+  expression(paste(italic("Kluyveromyces marxianus"), ~"DMKU3-1042")),
   expression(paste(italic("Penicillium nalgiovense"))),
-  expression(paste(italic("Penicillium roqueforti"))),
+  expression(paste(italic("Penicillium roqueforti"), ~"FM164")),
   expression(paste(italic("Penicillium"), ~"sp.")),
   expression(paste(italic("Pichia fermentans"))),
   expression(paste(italic("Pichia kluyveri"))),
   expression(paste(italic("Pichia kudriavzevii"))),
-  expression(paste(italic("Saccharomyces cerevisiae"))),
+  expression(paste(italic("Saccharomyces cerevisiae"), ~"S288C")),
   expression(paste(italic("Torulaspora delbrueckii")))
 )) 
 
@@ -189,7 +201,7 @@ hm <- ggplot(df.bin, aes(timepoint_grouped, y = Species, fill = hm_value)) +
   theme(
     plot.title = element_text(hjust = -0.12, vjust = -23, colour = "black", size = 12, face = "bold"),
     axis.title.x = element_blank(), 
-    axis.title.y = element_text(size = 12, colour = "black", face = "bold", vjust = 2),
+    axis.title.y = element_text(size = 12, colour = "black", face = "bold", vjust = 0.5, hjust = 0.7),
     axis.text.x = element_text(angle = 45, vjust = 0.9, hjust=1, size = 10, colour = "black"),
     axis.text.y = element_text(size = 12, colour = "black"),
     panel.grid.major.x = element_blank(),
@@ -254,5 +266,5 @@ grid.draw(g.hm)
 
 
 ggsave(g.hm, filename = "figures_and_tables/Figure_3_fmt_heatmap_species.tiff",
-       height = 8, width = 15, dpi = 300, units = "in", device='tiff')
+       height = 8, width = 15, dpi = 300, units = "in", device=tiff)
 
